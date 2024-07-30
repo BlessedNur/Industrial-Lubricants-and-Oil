@@ -188,7 +188,7 @@ function Content() {
           </div>
           <div className={style.text}>
             <h2>Free Shipping</h2>
-            <p>Free shipping on all of US order</p>
+            <p>Free shipping on all US order</p>
           </div>
         </div>
         <div className={style.line}>
