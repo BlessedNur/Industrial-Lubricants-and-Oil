@@ -177,7 +177,7 @@ function Content() {
           quality product offering.
         </p>
       </div>
-      <div className={style.info}>
+      <div className={style.info} data-aos={"fade-up"}>
         <div className={style.line}>
           <div className={style.image}>
             <Image
@@ -224,7 +224,7 @@ function Content() {
         </div>
       </div>
       <div className={style.findOut}>
-        <div className={style.box}>
+        <div className={style.box} data-aos={"fade-up"}>
           <h1>BUY OUR PRODUCTS</h1>
           <p>
             Check out our full range of lubricants, including motor oils,
@@ -232,7 +232,7 @@ function Content() {
           </p>
           <button>BUY NOW</button>
         </div>
-        <div className={style.box}>
+        <div className={style.box} data-aos={"fade-up"} data-aos-delay={100}>
           <h1>About us?</h1>
           <p>
             Product and Industry Knowledge. Superior Logistics. Performance
@@ -278,7 +278,7 @@ function Content() {
         </div>
       </div>
       <div className={style.whyUs}>
-        <div className={style.leftU}>
+        <div className={style.leftU}  data-aos={"zoom-in"}>
           <Image
             src={
               "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/csm_Visual_OEWW_Small_604a00a8e1-1.webp"
@@ -287,7 +287,7 @@ function Content() {
             height={1000}
           />
         </div>
-        <div className={style.rightU}>
+        <div className={style.rightU}  data-aos={"fade-up"}>
           <h1>WHY CHOOSE US?</h1>
           <p>
             At LubricantEZ, we pride ourselves on delivering top-tier lubricants
