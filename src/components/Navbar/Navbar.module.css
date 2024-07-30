@@ -279,15 +279,8 @@
     padding: 1em;
     max-width: 100vw !important;
   }
-  .search {
-    width: 10em;
-    background-color: black;
-    display: grid;
-    place-content: center;
-  }
   .search i {
-    /* width: 10em; */
-    background: none;
+    width: 10em;
     display: grid;
     place-content: center;
   }
