@@ -86,7 +86,10 @@
   .col {
     width: 100%;
   }
-  .botFooter{
+  .botFooter {
     text-align: center;
   }
+}
+.topFooter ul li a {
+  text-decoration: none ;
 }
