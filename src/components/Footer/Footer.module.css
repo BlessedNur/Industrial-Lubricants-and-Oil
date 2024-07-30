@@ -56,6 +56,11 @@
   padding: 0.5em;
   cursor: pointer;
 }
+.active a {
+  color: black;
+  text-decoration: underline !important;
+  font-weight: 700;
+}
 .botFooter span {
   font-weight: 700;
 }
@@ -91,5 +96,5 @@
   }
 }
 .topFooter ul li a {
-  text-decoration: none ;
+  text-decoration: none;
 }

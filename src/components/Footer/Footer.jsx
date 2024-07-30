@@ -17,7 +17,7 @@ function Footer() {
         </div>
         <ul>
           <h2>Quick Links</h2>
-          <li>
+          <li className={style.active}>
             <Link href={""}>Home</Link>
           </li>
           <li>
