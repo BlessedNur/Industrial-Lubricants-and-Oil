@@ -6,6 +6,8 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar/Navbar";
 import Content from "@/components/Content/Content";
 import Footer from "@/components/Footer/Footer";
+import MContent from "@/components/MainContent/MContent";
+import Banner from "@/components/Banner/Banner";
 export default function Home() {
   useEffect(() => {
     Aos.init({
@@ -15,7 +17,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Content />
+      <Banner />
+      <MContent />
       <Footer />
     </>
   );

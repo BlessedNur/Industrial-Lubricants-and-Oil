@@ -1,36 +1,64 @@
 .topFooter {
   display: flex;
   justify-content: space-between;
-  max-width: 1250px;
+  max-width: 1300px;
   margin: 0 auto;
+  align-items: start;
   gap: 3em;
 }
 .footer {
-  background: #ffbe2c;
+  background: #060a17;
   padding: 2em 0 0 0;
   display: flex;
+  color: white;
   flex-direction: column;
   gap: 2em;
   align-items: start;
 }
 .footer a {
   color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  color: #aaafbf;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.bot {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1em 0;
+}
+.bot span {
+  font-weight: 800;
+}
+.footer a:hover {
+  color: #fab712;
 }
 .footer h2 {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 .col {
-  width: 30%;
+  width: 70%;
 }
 .botFooter {
   /* background-color: black; */
-  max-width: 1250px;
+  max-width: 1300px;
   margin: auto;
   width: 100%;
   padding: 1em;
+  /* background: #000; */
+  display: flex;
+  gap: 5em;
+  justify-content: space-between;
 }
-.botFooter p {
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 .footer ul {
   display: flex;
@@ -38,27 +66,57 @@
   gap: 1em;
   white-space: nowrap;
 }
-.location,
 .subscribe {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  width: 100%;
+}
+.subscribe form {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.subscribe h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 800;
 }
 .subscribe input {
-  padding: 0.5em;
+  padding: 1em;
   border: none;
+  font-size: 22px;
   outline: none;
+  width: 90%;
 }
 .subscribe button {
   border: none;
   background-color: black;
-  color: white;
-  padding: 0.5em;
+  color: black;
+  font-size: 22px;
+  padding: 1em 3em;
+  text-transform: uppercase;
+  background-color: #fab712;
+  height: 100%;
+  font-weight: 800;
+  font-style: italic;
   cursor: pointer;
 }
+.location a,
+.location i {
+  color: #fab712;
+}
+.location a {
+  font-weight: normal;
+}
+.line {
+  gap: 0.3 !important;
+}
+.location i {
+  /* display: none; */
+}
 .active a {
-  color: black;
-  text-decoration: underline !important;
+  color: #fab712;
   font-weight: 700;
 }
 .botFooter span {
@@ -81,6 +139,22 @@
   display: block;
 }
 @media screen and (max-width: 768px) {
+  .subscribe form {
+    flex-direction: column;
+    /* background-color: red; */
+    padding: 0;
+  }
+  .footer {
+    gap: 0;
+  }
+  .subscribe input,
+  .subscribe button {
+    width: 100%;
+  }
+  .botFooter {
+    flex-direction: column;
+    align-items: start;
+  }
   .topFooter {
     flex-direction: column;
     padding: 1em;
@@ -92,7 +166,10 @@
     width: 100%;
   }
   .botFooter {
+  }
+  .bot {
     text-align: center;
+    padding: 1em;
   }
 }
 .topFooter ul li a {

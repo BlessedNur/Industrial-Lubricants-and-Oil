@@ -11,10 +11,24 @@ function Footer() {
             <Image
               width={1000}
               height={1000}
-              src={"/images/Screenshot__272_-removebg-preview.png"}
+              src={"/images/Untitled_Project__2_-removebg-preview.png"}
             />
           </div>
         </div>
+
+        <div className={style.subscribe}>
+          <h2>Subscribe up for the newsletter</h2>
+          <p>We’ll never share your email address with a third-party.</p>
+          <form>
+            <input
+              type="email"
+              placeholder="Enter your email address here .."
+            />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <div className={style.botFooter}>
         <ul>
           <h2>Quick Links</h2>
           <li className={style.active}>
@@ -33,21 +47,15 @@ function Footer() {
             <Link href={""}>Contact</Link>
           </li>
         </ul>
-        <div className={style.subscribe}>
-          <h2>Subscribe to our newsletter</h2>
-          <p>We’ll never share your email address with a third-party.</p>
-          <form>
-            <input type="email" placeholder="Enter your email" />
-            <button type="submit">Subscribe</button>
-          </form>
-        </div>
         <div className={style.location}>
+          <h2>find us</h2>
           <div className={style.line}>
-<i class="fa fa-location-arrow" aria-hidden="true"></i>
+            <i class="fa fa-location-arrow" aria-hidden="true"></i>
             <Link href={""}>
               5702 General Washington Dr F, Alexandria, VA 22312, United States
             </Link>
           </div>
+          <h2>Contact us</h2>
           <div className={style.line}>
             <i class="fa fa-phone" aria-hidden="true"></i>
             <Link href={""}>+1-208-278-6426</Link>
@@ -57,9 +65,11 @@ function Footer() {
             <Link href={""}>company@example.com</Link>
           </div>
         </div>
+        <div></div>
       </div>
-      <div className={style.botFooter}>
-        Copyright <span>Saigon Trading Corp {new Date().getFullYear()}</span>.
+      <div className={style.bot}>
+        &copy;{" "}
+        <span> {new Date().getFullYear()} SEB WHOLESALE DISTRIBUTORS INC </span>.
         All Rights Reserved.
       </div>
     </section>

@@ -1,12 +1,20 @@
-.banner img {
+.banner .img {
   width: 100%;
   height: 100%;
   display: block;
   object-fit: cover;
+  zoom: 150%;
+  /* scale: 1.2; */
 }
 .banner {
   position: relative;
-  height: 100svh;
+  height: 135svh;
+}
+.items h1 em {
+  font-size: 100px !important;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 .banner::before {
   content: "";
@@ -15,31 +23,53 @@
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.479);
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 8%, #060a17 95%);
+  /* background-color: rgba(0, 0, 0, 0.479); */
+}
+.banner img {
+  zoom: 10;
 }
 .content {
   position: relative;
-  top: -55%;
+  top: -75%;
   left: 0;
   color: white;
   /* transform: translate(-50, -50%); */
-  max-width: 1250px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .items {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  width: 50%;
+  width: 80%;
 }
-.content h1 {
-  font-size: 40px;
-  color: #ffbe2c;
-  /* color: #000; */
-  text-transform: uppercase;
-  letter-spacing: 0.01px;
+.items h1 {
+  line-height: 4em;
+}
+
+.items h1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.image {
+  width: 5%;
+  display: grid;
+  place-content: center;
+}
+.items .em {
+  display: flex;
+  align-items: center;
+  gap: 0.1em;
+}
+.items p {
+  font-size: 26px;
 }
 .content {
+  padding-bottom: 1em;
   animation: animateText 0.8s ease-in-out;
 }
 @keyframes animateText {
@@ -61,10 +91,13 @@
   padding: 1em 2em;
   text-transform: uppercase;
   border: none;
+  font-size: 27px;
+
   cursor: pointer;
-  color: white;
-  background: #000;
-  font-weight: 600;
+  color: black;
+  font-style: italic;
+  font-weight: 800;
+  background: #fab712;
 }
 
 @media screen and (max-width: 768px) {
@@ -72,10 +105,20 @@
     padding: 1em;
     width: 100%;
   }
+  .items h1 em {
+    font-size: 80px !important;
+  }
   .items h1 {
-    font-size: 30px;
+    line-height: 5em;
+  }
+  .image {
+    width: 10%;
   }
   .content {
-    top: -65%;
+    top: -85%;
+  }
+  .items h1 {
+    /* background-color: red; */
+    /* width: 40%; */
   }
 }

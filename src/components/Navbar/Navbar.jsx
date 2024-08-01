@@ -51,146 +51,75 @@ function Navbar() {
   }, [searchRef]);
 
   return (
-    <>
-      {menu && <div className={style.dark}></div>}
-      <div className={`${style.mobileMenu} ${menu && style.showMenu}`}>
-        <div className={style.mobMenu}>
-          <div className={style.top}>
-            <i
-              className="fa fa-times"
-              aria-hidden="true"
-              onClick={() => setMenu(false)}
-            ></i>
-          </div>
-          <ul>
-            <li className={style.activeM}>
-              <Link href={""}>Home</Link>
-            </li>
-            <li>
-              <Link href={""}>About Us</Link>
-            </li>
-            <li onClick={() => setMenuS((prev) => !prev)}>
-              <Link href={""}>Products</Link>
-              {menuS ? (
-                <i className="fa fa-chevron-down" aria-hidden="true"></i>
-              ) : (
-                <i className="fa fa-chevron-right" aria-hidden="true"></i>
-              )}
-            </li>
-            <div className={`${style.subMenu} ${menuS && style.showSubMenu}`}>
+    <section className={style.mainNav}>
+      <div className={`${style.mobileMenu} ${menu && style.show}`}>
+        <ul>
+          <li>
+            <Link href={""}>Home</Link>
+          </li>
+          <li>
+            <Link href={""}>Products</Link>
+          </li>
+          <li>
+            <Link href={""}>About</Link>
+          </li>
+          <li>
+            <Link href={""}>Sevices</Link>
+          </li>
+          <li>
+            <Link href={""}>Contact</Link>
+          </li>
+        </ul>
+      </div>
+      <section className={style.nav}>
+        <div className={style.logo}>
+          <Image
+            width={1000}
+            height={1000}
+            src={"/images/Untitled_Project__1_-removebg-preview.png"}
+          />
+        </div>
+        <label className={`burger ${menu && style.rotate}`} for="burger">
+          <input
+            type="checkbox"
+            id="burger"
+            checked={menu}
+            onClick={() => setMenu((prev) => !prev)}
+          />
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul className={style.ul}>
+          <li className={style.product}>
+            <Link href={""}>Products</Link>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            <div className={style.dropdown}>
               <ul>
-                <li>
-                  <Link href={""}>Gear Oils</Link>
-                </li>
-                <li>
-                  <Link href={""}>Grease</Link>
-                </li>
-                <li>
-                  <Link href={""}>Tractor</Link>
-                </li>
-                <li>
-                  <Link href={""}>Transmission</Link>
-                </li>
-                <li>
-                  <Link href={""}>TIRE</Link>
-                </li>
-                <li>
-                  <Link href={""}>Engine Lubricants</Link>
-                </li>
+                <li>Gear Oils</li>
+                <li>Grease</li>
+                <li>Tractor Hydrauic Fluids</li>
+                <li>Transmission</li>
+                <li>TIRE</li>
+                <li>Engine Lubricants</li>
               </ul>
             </div>
-            <li>
-              <Link href={""}>Our Shop</Link>
-            </li>
-            <li>
-              <Link href={""}>Contact</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <section
-        className={`${style.mainNav} ${
-          isScrollingUp ? style.show : style.hide
-        } ${isScrolled ? style.scrolled : ""} `}
-      >
-        <section className={`${style.nav} `}>
-          {mobile ? (
-            <div className={style.left}>
-              <label
-                className="burger"
-                htmlFor="burger"
-                onClick={() => setMenu(true)}
-              >
-                <input
-                  type="checkbox"
-                  id="burger"
-                  checked={menu ? true : false}
-                />
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
-              <div className={style.logo}>
-                <Image
-                  width={1000}
-                  height={1000}
-                  src={"/images/Screenshot__272_-removebg-preview.png"}
-                  alt="Logo"
-                />
-              </div>
-            </div>
-          ) : (
-            <div className={style.logo}>
-              <Image
-                width={1000}
-                height={1000}
-                src={"/images/Screenshot__272_-removebg-preview.png"}
-                alt="Logo"
-              />
-            </div>
-          )}
-          <ul>
-            <li className={style.active}>
-              <Link href={""}>Home</Link>
-            </li>
-            <li>
-              <Link href={""}>About Us</Link>
-            </li>
-            <li>
-              <Link href={""}>Products</Link>
-            </li>
-            <li>
-              <Link href={""}>Our Shop</Link>
-            </li>
-            <li>
-              <Link href={""}>Contact</Link>
-            </li>
-          </ul>
+          </li>
+          <li>
+            <Link href={""}>About</Link>
+          </li>
+          <li>
+            <Link href={""}>Services</Link>
+          </li>
+          <li>
+            <Link href={""}>Contact</Link>
+          </li>
           <div className={style.search}>
-            <input type="text" placeholder="Search product." />
-            <i
-              className="fa fa-search"
-              aria-hidden="true"
-              onClick={() => {
-                mobile && setMobileSearch(true);
-              }}
-            ></i>
+            <i class="fa fa-search" aria-hidden="true"></i>
           </div>
-          {mobile && (
-            <div
-              className={`${style.mobileSearch} ${
-                mobileSearch && style.showMobileSearch
-              }`}
-              ref={searchRef}
-            >
-              <input type="text" placeholder="Search here.." name="" id="" />
-              <i className="fa fa-search" aria-hidden="true"></i>
-            </div>
-          )}
-        </section>
+        </ul>
       </section>
-      <Banner />
-    </>
+    </section>
   );
 }
 
