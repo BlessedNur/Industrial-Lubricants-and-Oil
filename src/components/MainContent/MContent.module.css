@@ -67,7 +67,7 @@
 }
 .productItem {
   background-color: white;
-  min-width: 400px;
+  /* min-width: 400px; */
 
   background: linear-gradient(
       rgba(255, 255, 255, 0.845),
@@ -322,5 +322,8 @@
   }
   .aboutUs {
     flex-direction: column;
+  }
+  .product {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }
 }
