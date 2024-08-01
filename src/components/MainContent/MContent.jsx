@@ -6,31 +6,29 @@ function MContent() {
     {
       name: "Gear oils",
       image:
-        "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/valvoline-5w50-premium-synthetic-engine-oil-vr1-racing-a3b4-ford-gm-873434-210980.webp",
+        "/brands/valvoline-5w50-premium-synthetic-engine-oil-vr1-racing-a3b4-ford-gm-873434-210980-removebg-preview.png",
     },
     {
       name: "Grease",
       image:
-        "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/olympus_synthetic_gear_lubricant_75w90_pail_1.jpg",
+        "/brands/olympus_synthetic_gear_lubricant_75w90_pail_1-removebg-preview.png",
     },
     {
       name: "Tractor Hydraulic fluids",
-      image: "https://m.media-amazon.com/images/I/61XbN4FQTNL.jpg",
+      image: "/brands/61XbN4FQTNL-removebg-preview.png",
     },
     {
       name: "Transmission",
-      image:
-        "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/chevron_1000_thf_pail.jpg",
+      image: "/brands/chevron_1000_thf_pail-removebg-preview.png",
     },
     {
       name: "TIRES",
       image:
-        "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/pneu-ete-COOPER-TIRES-DISCOVERER-AT3.jpeg",
+        "/brands/pneu-ete-COOPER-TIRES-DISCOVERER-AT3-removebg-preview (1).png",
     },
     {
       name: "Engine lubricants ",
-      image:
-        "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/oil_pour1-624x500-1.jpg",
+      image: "/brands/oil_pour1-624x500-1-removebg-preview.png",
     },
   ];
   const brands = [

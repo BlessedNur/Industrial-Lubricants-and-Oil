@@ -68,6 +68,17 @@
 .productItem {
   background-color: white;
   min-width: 400px;
+
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.845),
+      rgba(255, 255, 255, 0.77)
+    ),
+    url("/images/logobw.png");
+  background-color: white; /* Fallback color */
+  background-size: contain; /* Adjust as needed */
+  background-position: bottom left; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+
   justify-content: space-between;
   /* height: 300px; */
   transition: 0.2s;
