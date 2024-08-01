@@ -152,7 +152,7 @@ function MContent() {
         <div className={style.right}>
           <h1>about us</h1>
           <p>
-            Proudly Made in The Netherlands, JLM Lubricants designs, develops
+            Proudly Made in The Netherlands, SEB WHOLESALE DISTRIBUTORS INC, develops
             and manufactures a wide range of premium fuel additives and
             lubricants. Fuelled by an unwavering commitment to quality and
             innovation, we constantly push the boundaries of lubricant and
