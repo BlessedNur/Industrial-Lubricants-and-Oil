@@ -303,6 +303,14 @@
   .right {
     padding: 2em;
   }
+  .content .button {
+    font-size: 20px;
+  }
+  .productSection h1,
+  .right h1,
+  .partners h1 {
+    font-size: 30px;
+  }
   .productSection {
     padding: 1em;
   }
@@ -325,5 +333,9 @@
   }
   .product {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+
+  .productItem p {
+    font-size: 25px;
   }
 }
