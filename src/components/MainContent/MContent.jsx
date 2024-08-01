@@ -118,6 +118,23 @@ function MContent() {
         "https://seeklogo.com/images/G/Gulf-logo-38314CE060-seeklogo.com.png",
     },
   ];
+  const news = [
+    {
+      name: "Why GDI Engines Require Specialised Petrol Injector Cleaners",
+      image:
+        "https://www.jlmlubricants.com/wp-content/uploads/2023/08/Achtergrond-scaled.jpg",
+    },
+    {
+      name: "How do I know if I have a GDI engine in my car?",
+      image:
+        "https://www.jlmlubricants.com/wp-content/uploads/2024/07/Turbo_GDI_engine.jpeg",
+    },
+    {
+      name: "10 Common fault codes related to DPF problems, and how to deal with them.",
+      image:
+        "https://www.jlmlubricants.com/wp-content/uploads/2024/06/DPF-warning-light-1024x576-1.jpg",
+    },
+  ];
   return (
     <section className={style.content}>
       <div className={style.productSection}>
@@ -152,17 +169,37 @@ function MContent() {
         <div className={style.right}>
           <h1>about us</h1>
           <p>
-            Proudly Made in The US, SEB WHOLESALE DISTRIBUTORS INC, develops
-            and manufactures a wide range of premium fuel additives and
-            lubricants. Fuelled by an unwavering commitment to quality and
-            innovation, we constantly push the boundaries of lubricant and
-            additive technology.
+            Proudly Made in The US, SEB WHOLESALE DISTRIBUTORS INC, develops and
+            manufactures a wide range of premium fuel additives and lubricants.
+            Fuelled by an unwavering commitment to quality and innovation, we
+            constantly push the boundaries of lubricant and additive technology.
           </p>
           <p>
             All our products are developed with the latest technologies and the
             greatest care – fuel additives and lubricants for all cars.
           </p>
           <button>read more</button>
+        </div>
+      </div>
+      <div className={style.news}>
+        <div className={style.contentN}>
+          <h1>latest news</h1>
+          <div className={style.newsItems}>
+            {news.map((item, index) => (
+              <div className={style.card} key={index}>
+                <div className={style.imageC}>
+                  <img src={item.image} alt={item.name} />
+                </div>
+                <div className={style.infos}>
+                  <h2>{item.name}</h2>
+                  <div className={style.read}>
+                    <p>Read more</p>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <div className={style.partners}>

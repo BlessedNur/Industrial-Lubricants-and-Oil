@@ -133,6 +133,7 @@
   display: flex;
   height: 120svh;
   margin: 3em 0;
+  margin-bottom: 0;
 }
 .aboutUs img {
   width: 100%;
@@ -285,7 +286,8 @@
   object-fit: contain;
   display: block;
 }
-.partners h1 {
+.partners h1,
+.news h1 {
   padding: 0.5em;
   text-transform: uppercase;
   margin: 1em 0;
@@ -295,6 +297,61 @@
   font-style: italic;
   font-weight: 800;
   color: white;
+}
+.newsItems img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.imageC {
+  height: 250px;
+}
+.card h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 800;
+
+  /* min-width: 400px; */
+}
+.newsItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1em;
+}
+.news h1 {
+  color: rgb(6, 10, 23);
+}
+.contentN {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.card {
+  background-color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.news {
+  background-color: #f9f9fb;
+  padding: 2em 0;
+}
+.read {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 1em;
+}
+.infos p {
+  font-size: 24px;
+  text-transform: capitalize;
 }
 @media screen and (max-width: 768px) {
   .product {
@@ -331,10 +388,16 @@
   .aboutUs {
     flex-direction: column;
   }
-  .product {
+  .product,
+  .newsItems {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }
-
+  .news h1 {
+    font-size: 30px;
+  }
+  .newsItems {
+    padding: 1em;
+  }
   .productItem p {
     font-size: 25px;
   }
