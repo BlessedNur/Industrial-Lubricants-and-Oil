@@ -23,7 +23,7 @@
   height: 100%;
   left: 0;
   top: 0;
-
+  
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 8%, #060a17 95%);
   /* background-color: rgba(0, 0, 0, 0.479); */
 }
@@ -38,6 +38,7 @@
   /* transform: translate(-50, -50%); */
   max-width: 1300px;
   margin: 0 auto;
+  padding: 1em;
 }
 .items {
   display: flex;
@@ -100,7 +101,7 @@
   background: #fab712;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .items {
     padding: 1em;
     width: 100%;
@@ -120,5 +121,8 @@
   .items h1 {
     /* background-color: red; */
     /* width: 40%; */
+  }
+  .banner button{
+    font-size: 20px;
   }
 }

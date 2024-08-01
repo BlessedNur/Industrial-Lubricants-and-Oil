@@ -8,8 +8,8 @@
 }
 .footer {
   background: #060a17;
-  padding: 2em 0 0 0;
   display: flex;
+  padding: 2em 1em 0 1em;
   color: white;
   flex-direction: column;
   gap: 2em;
@@ -138,7 +138,7 @@
   object-fit: cover;
   display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .subscribe form {
     flex-direction: column;
     /* background-color: red; */

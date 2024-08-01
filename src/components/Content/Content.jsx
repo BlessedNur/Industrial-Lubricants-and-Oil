@@ -8,7 +8,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import useMediaQuery from "../UseMediaQuery";
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), { ssr: false });
 function Content() {
-  const mobile = useMediaQuery("(max-width:768px)");
+  const mobile = useMediaQuery("(max-width:868px)");
 
   useEffect(() => {
     mobile && setProductsF(productsF.slice(0, 3));
@@ -278,7 +278,7 @@ function Content() {
         </div>
       </div>
       <div className={style.whyUs}>
-        <div className={style.leftU}  data-aos={"zoom-in"}>
+        <div className={style.leftU} data-aos={"zoom-in"}>
           <Image
             src={
               "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/csm_Visual_OEWW_Small_604a00a8e1-1.webp"
@@ -287,7 +287,7 @@ function Content() {
             height={1000}
           />
         </div>
-        <div className={style.rightU}  data-aos={"fade-up"}>
+        <div className={style.rightU} data-aos={"fade-up"}>
           <h1>WHY CHOOSE US?</h1>
           <p>
             At LubricantEZ, we pride ourselves on delivering top-tier lubricants

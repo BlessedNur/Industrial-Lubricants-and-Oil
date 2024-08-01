@@ -91,14 +91,14 @@
   display: none;
 }
 .rotate {
-  animation: rot .2s linear;
+  animation: rot 0.2s linear;
 }
 @keyframes rot {
   to {
     transform: rotate(360deg);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .ul {
     display: none;
   }

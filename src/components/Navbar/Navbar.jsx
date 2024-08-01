@@ -13,7 +13,7 @@ function Navbar() {
   const [menu, setMenu] = useState(false);
   const [menuS, setMenuS] = useState(false);
   const [mobileSearch, setMobileSearch] = useState(false);
-  const mobile = useMediaQuery("(max-width:768px)");
+  const mobile = useMediaQuery("(max-width:868px)");
 
   const searchRef = useRef(null);
 

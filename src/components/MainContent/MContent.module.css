@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 3em;
+  padding: 1em;
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -148,7 +149,7 @@
 }
 .right {
   background-color: #fab712;
-  padding: 2em 5em;
+  padding: 3em;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -187,7 +188,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 3em 0;
+  padding: 3em 1em;
   gap: 3em;
 }
 .texts p {
@@ -286,6 +287,10 @@
   object-fit: contain;
   display: block;
 }
+.partners {
+  padding: 1em;
+}
+
 .partners h1,
 .news h1 {
   padding: 0.5em;
@@ -336,7 +341,7 @@
 }
 .news {
   background-color: #f9f9fb;
-  padding: 2em 0;
+  padding: 2em 1em;
 }
 .read {
   display: flex;
@@ -353,7 +358,7 @@
   font-size: 24px;
   text-transform: capitalize;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   .product {
     padding: 1em;
   }
@@ -361,7 +366,7 @@
     padding: 2em;
   }
   .content .button {
-    font-size: 20px;
+    font-size: 20px ;
   }
   .productSection h1,
   .right h1,
