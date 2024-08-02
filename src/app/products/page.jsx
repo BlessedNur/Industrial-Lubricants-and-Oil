@@ -2,11 +2,12 @@
 import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 
 function Page() {
   const navigate = useRouter();
+  const path = usePathname();
   return (
     <section>
       <Navbar />
@@ -18,6 +19,7 @@ function Page() {
         diff={true}
         img={"/images/20221202-5S7A6269-scaled.jpg"}
       />
+      
       <Footer />
     </section>
   );

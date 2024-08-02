@@ -33,19 +33,19 @@ function Footer() {
       <div className={style.botFooter}>
         <ul>
           <h2>Quick Links</h2>
-          <li className={style.active}>
+          <li className={`${path === "/" && style.active}`}>
             <Link href={"/"}>Home</Link>
           </li>
-          <li>
+          <li className={`${path === "/products" && style.active}`}>
             <Link href={"/products"}>Products</Link>
           </li>
-          <li>
+          <li className={`${path === "/news" && style.active}`}>
             <Link href={"/news"}>News</Link>
           </li>
-          <li>
+          <li className={`${path === "/about" && style.active}`}>
             <Link href={"/about"}>About us</Link>
           </li>
-          <li>
+          <li className={`${path === "/contact" && style.active}`}>
             <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
