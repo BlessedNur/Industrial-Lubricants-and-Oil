@@ -80,7 +80,7 @@ function Footer() {
             <Link href="tel:+12082786426">+1-208-278-6426</Link>
           </div>
           <div className={style.line}>
-            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            <i class="fa-brands fa-whatsapp"></i>{" "}
             <Link href="">+1-208-278-6426</Link>
           </div>
           <div className={style.line}>
