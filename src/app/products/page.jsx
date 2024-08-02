@@ -18,9 +18,6 @@ function Page() {
         diff={true}
         img={"/images/20221202-5S7A6269-scaled.jpg"}
       />
-      <button onClick={()=>navigate.push(`/products/hello`)}>
-        move
-      </button>
       <Footer />
     </section>
   );
