@@ -139,4 +139,15 @@
   .banner button {
     font-size: 20px;
   }
+  .altContent h1{
+    font-size: 50px;
+    line-height: 1.5em;
+  }
+  .altContent{
+    top: -70%;
+    padding: 0;
+  }
+  .navigation p{
+    font-size: 15px;
+  }
 }

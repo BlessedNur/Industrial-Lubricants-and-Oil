@@ -4,8 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import Banner from "../Banner/Banner";
 import useMediaQuery from "../UseMediaQuery";
+import { useRouter } from "next/navigation";
 
 function Navbar() {
+  const navigate = useRouter();
   const [scrollY, setScrollY] = useState(0);
   const [scrollDirection, setScrollDirection] = useState(null);
   const [isScrollingUp, setIsScrollingUp] = useState(true);
@@ -55,24 +57,29 @@ function Navbar() {
       <div className={`${style.mobileMenu} ${menu && style.show}`}>
         <ul>
           <li>
-            <Link href={""}>Home</Link>
+            <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={""}>Products</Link>
+            <Link href={"#"}>Products</Link>
           </li>
           <li>
-            <Link href={""}>About</Link>
+            <Link href={"/about"}>About</Link>
           </li>
           <li>
-            <Link href={""}>Sevices</Link>
+            <Link href={"/news"}>News</Link>
           </li>
           <li>
-            <Link href={""}>Contact</Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
       </div>
       <section className={style.nav}>
-        <div className={style.logo}>
+        <div
+          className={style.logo}
+          onClick={() => {
+            navigate.push("/");
+          }}
+        >
           <Image
             width={1000}
             height={1000}
@@ -96,12 +103,58 @@ function Navbar() {
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
             <div className={style.dropdown}>
               <ul>
-                <li>Gear Oils</li>
-                <li>Grease</li>
-                <li>Tractor Hydrauic Fluids</li>
-                <li>Transmission</li>
-                <li>TIRE</li>
-                <li>Engine Lubricants</li>
+                <li
+                  onClick={() =>
+                    navigate.push(
+                      `/products/${encodeURIComponent("Gear Oils")}`
+                    )
+                  }
+                >
+                  Gear Oils
+                </li>
+                <li
+                  onClick={() =>
+                    navigate.push(`/products/${encodeURIComponent("Grease")}`)
+                  }
+                >
+                  Grease
+                </li>
+                <li
+                  onClick={() =>
+                    navigate.push(
+                      `/products/${encodeURIComponent(
+                        "Tractor Hydraulic Fluids"
+                      )}`
+                    )
+                  }
+                >
+                  Tractor Hydraulic Fluids
+                </li>
+                <li
+                  onClick={() =>
+                    navigate.push(
+                      `/products/${encodeURIComponent("Transmission")}`
+                    )
+                  }
+                >
+                  Transmission
+                </li>
+                <li
+                  onClick={() =>
+                    navigate.push(`/products/${encodeURIComponent("TIRES")}`)
+                  }
+                >
+                  TIRES
+                </li>
+                <li
+                  onClick={() =>
+                    navigate.push(
+                      `/products/${encodeURIComponent("Engine Lubricants")}`
+                    )
+                  }
+                >
+                  Engine Lubricants
+                </li>
               </ul>
             </div>
           </li>
@@ -109,7 +162,7 @@ function Navbar() {
             <Link href={""}>About</Link>
           </li>
           <li>
-            <Link href={""}>Services</Link>
+            <Link href={""}>News</Link>
           </li>
           <li>
             <Link href={""}>Contact</Link>

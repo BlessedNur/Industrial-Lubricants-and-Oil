@@ -2,12 +2,14 @@ import React from "react";
 import style from "./Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 function Footer() {
+  const navigate = useRouter();
   return (
     <section className={style.footer}>
       <div className={style.topFooter}>
         <div className={style.col}>
-          <div className={style.logo}>
+          <div className={style.logo} onClick={() => navigate.push("/")}>
             <Image
               width={1000}
               height={1000}
@@ -32,45 +34,61 @@ function Footer() {
         <ul>
           <h2>Quick Links</h2>
           <li className={style.active}>
-            <Link href={""}>Home</Link>
+            <Link href={"/"}>Home</Link>
           </li>
           <li>
             <Link href={""}>Products</Link>
           </li>
           <li>
-            <Link href={""}>Our shop</Link>
+            <Link href={"/news"}>News</Link>
           </li>
           <li>
-            <Link href={""}>About us</Link>
+            <Link href={"/about"}>About us</Link>
           </li>
           <li>
-            <Link href={""}>Contact</Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
         <div className={style.location}>
-          <h2>find us</h2>
+          <h2>Find us</h2>
           <div className={style.line}>
-            <i class="fa fa-location-arrow" aria-hidden="true"></i>
-            <Link href={""}>
+            <i className="fa fa-location-arrow" aria-hidden="true"></i>
+            <Link
+              href="https://www.google.com/maps?q=5702+General+Washington+Dr+F,+Alexandria,+VA+22312,+United+States"
+              passHref
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               5702 General Washington Dr F, Alexandria, VA 22312, United States
             </Link>
           </div>
+          <iframe
+            src="https://www.google.com/maps?q=5702+General+Washington+Dr+F,+Alexandria,+VA+22312,+United+States&output=embed"
+            width="100%"
+            height="200"
+            frameBorder="0"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            aria-hidden="false"
+            tabIndex="0"
+          ></iframe>
           <h2>Contact us</h2>
           <div className={style.line}>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <Link href={""}>+1-208-278-6426</Link>
+            <i className="fa fa-phone" aria-hidden="true"></i>
+            <Link href="tel:+12082786426">+1-208-278-6426</Link>
           </div>
           <div className={style.line}>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <Link href={""}>company@example.com</Link>
+            <i className="fa fa-envelope" aria-hidden="true"></i>
+            <Link href="mailto:company@example.com">company@example.com</Link>
           </div>
         </div>
+
         <div></div>
       </div>
       <div className={style.bot}>
         &copy;{" "}
-        <span> {new Date().getFullYear()} SEB WHOLESALE DISTRIBUTORS INC </span>.
-        All Rights Reserved.
+        <span> {new Date().getFullYear()} SEB WHOLESALE DISTRIBUTORS INC </span>
+        . All Rights Reserved.
       </div>
     </section>
   );

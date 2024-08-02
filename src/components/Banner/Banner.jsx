@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Banner.module.css";
 import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
 function Banner({
   img,
   button,
@@ -13,7 +14,10 @@ function Banner({
   presentPage,
   subNavigation,
   subPage,
+  top,
 }) {
+  const path = usePathname();
+  const navigate = useRouter();
   return (
     <div
       className={style.banner}
@@ -22,7 +26,12 @@ function Banner({
       }}
     >
       <Image src={img} className={style.img} width={100000} height={100000} />
-      <div className={style.content}>
+      <div
+        className={`${style.content} ${path !== "/" && style.altContent}`}
+        style={{
+          top: top,
+        }}
+      >
         <div className={style.items}>
           {home ? (
             <h1>
@@ -49,7 +58,11 @@ function Banner({
               Worldwide premium lubricants <br /> and additives for modern cars
             </p>
           )}
-          {button && <button>SEE PRODUCTS</button>}
+          {button && (
+            <button onClick={() => navigate.push("/products")}>
+              SEE PRODUCTS
+            </button>
+          )}
           {diff && (
             <>
               <div className={style.navigation}>

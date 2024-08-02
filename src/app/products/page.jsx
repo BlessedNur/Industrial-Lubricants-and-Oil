@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-function page() {
+function Page() {
   const navigate = useRouter();
   return (
     <section>
@@ -26,4 +26,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

@@ -1,10 +1,12 @@
 import React from "react";
 import style from "./MContent.module.css";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 function MContent() {
+  const navigate = useRouter();
   const products = [
     {
-      name: "Gear oils",
+      name: "Gear Oils",
       image:
         "/brands/valvoline-5w50-premium-synthetic-engine-oil-vr1-racing-a3b4-ford-gm-873434-210980-removebg-preview.png",
     },
@@ -14,7 +16,7 @@ function MContent() {
         "/brands/olympus_synthetic_gear_lubricant_75w90_pail_1-removebg-preview.png",
     },
     {
-      name: "Tractor Hydraulic fluids",
+      name: "Tractor Hydraulic Fluids",
       image: "/brands/61XbN4FQTNL-removebg-preview.png",
     },
     {
@@ -27,7 +29,7 @@ function MContent() {
         "/brands/pneu-ete-COOPER-TIRES-DISCOVERER-AT3-removebg-preview (1).png",
     },
     {
-      name: "Engine lubricants ",
+      name: "Engine Lubricants ",
       image: "/brands/oil_pour1-624x500-1-removebg-preview.png",
     },
   ];
@@ -141,7 +143,13 @@ function MContent() {
         <h1>PRODUCTS</h1>
         <div className={style.product}>
           {products.map((product, index) => (
-            <div key={index} className={style.productItem}>
+            <div
+              key={index}
+              className={style.productItem}
+              onClick={() => {
+                navigate.push(`/products/${encodeURIComponent(product.name)}`);
+              }}
+            >
               <div className={style.image}>
                 <img src={product.image} alt={product.name} />
               </div>
@@ -156,7 +164,9 @@ function MContent() {
             </div>
           ))}
         </div>
-        <button>Go to products</button>
+        <button onClick={() => navigate.push("/products")}>
+          Go to products
+        </button>
       </div>
       <div className={style.aboutUs}>
         <div className={style.left}>
@@ -178,7 +188,7 @@ function MContent() {
             All our products are developed with the latest technologies and the
             greatest care – fuel additives and lubricants for all cars.
           </p>
-          <button>read more</button>
+          <button onClick={() => navigate.push("/about")}>read more</button>
         </div>
       </div>
       <div className={style.news}>
@@ -245,7 +255,9 @@ function MContent() {
             and coolants.
           </p>
           <div className={style.button}>
-            <button>Discover now</button>
+            <button onClick={() => navigate.push("/about")}>
+              Discover now
+            </button>
           </div>
         </div>
       </div>

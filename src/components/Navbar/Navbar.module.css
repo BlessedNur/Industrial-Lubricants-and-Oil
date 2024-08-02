@@ -15,6 +15,7 @@
   left: 0;
 }
 .logo {
+  cursor: pointer;
   /* background-color: black; */
   display: grid;
   place-content: center;
