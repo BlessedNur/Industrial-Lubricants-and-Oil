@@ -14,10 +14,18 @@ export default function Home() {
       duration: 500, // Animation duration in milliseconds
     });
   }, []);
+
   return (
     <>
       <Navbar />
-      <Banner />
+      <Banner
+        home={true}
+        textIntro={true}
+        button={true}
+        img={
+          "/images/auto-mechanic-fixing-car-on-lift-2022-02-02-04-48-28-utc-scaled.jpg"
+        }
+      />
       <MContent />
       <Footer />
     </>

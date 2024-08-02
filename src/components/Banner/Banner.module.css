@@ -23,7 +23,7 @@
   height: 100%;
   left: 0;
   top: 0;
-  
+
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 8%, #060a17 95%);
   /* background-color: rgba(0, 0, 0, 0.479); */
 }
@@ -100,7 +100,21 @@
   font-weight: 800;
   background: #fab712;
 }
-
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  text-transform: capitalize;
+}
+.navigation p {
+  font-size: 17px;
+}
+.h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 800;
+}
 @media screen and (max-width: 868px) {
   .items {
     padding: 1em;
@@ -122,7 +136,7 @@
     /* background-color: red; */
     /* width: 40%; */
   }
-  .banner button{
+  .banner button {
     font-size: 20px;
   }
 }
