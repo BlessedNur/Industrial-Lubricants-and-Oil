@@ -2,9 +2,11 @@ import React from "react";
 import style from "./Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 function Footer() {
   const navigate = useRouter();
+  const path = usePathname();
+
   return (
     <section className={style.footer}>
       <div className={style.topFooter}>
