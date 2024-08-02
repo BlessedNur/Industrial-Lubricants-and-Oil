@@ -66,9 +66,27 @@ function Banner({
           {diff && (
             <>
               <div className={style.navigation}>
-                <p>Home</p>
+                <p
+                  style={{
+                    cursor: "pointer",
+                  }}
+                  onClick={() => {
+                    navigate.push("/");
+                  }}
+                >
+                  Home
+                </p>
                 <p>{"»"}</p>
-                <p>{presentPage}</p>
+                <p
+                  style={{
+                    cursor: "pointer",
+                  }}
+                  onClick={() => {
+                    navigate.push(`/${presentPage}`);
+                  }}
+                >
+                  {presentPage}
+                </p>
                 <div className={style.navigation}>
                   {subNavigation && (
                     <>
