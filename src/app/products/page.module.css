@@ -1,0 +1,125 @@
+.main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.category {
+  background-color: #fab712;
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  align-items: end;
+  justify-content: space-between;
+}
+.category h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 100%;
+  color: #060a17;
+  font-weight: 800;
+}
+.category select,
+.category input {
+  outline: none;
+  font-size: 22px;
+  padding: 1em 0;
+  color: #060a17;
+  background: none;
+  border: none;
+  width: 100%;
+}
+.category input::placeholder {
+  color: #060a17;
+}
+.category select {
+  border-bottom: 1px solid #060a17;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  border-bottom: 1px solid #060a17;
+  width: 100%;
+}
+.search i {
+  cursor: pointer;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1em;
+  margin: 3em 0;
+}
+.product img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.image {
+  display: grid;
+  place-content: center;
+  width: 60%;
+  padding: 2em;
+  margin: 0 auto;
+}
+.icon img {
+  width: 15%;
+  height: 100%;
+  object-fit: cover !important;
+  display: initial !important;
+}
+.icon {
+  display: flex;
+  justify-content: flex-end !important;
+  align-items: end !important;
+}
+
+.productItem p {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-weight: 800;
+}
+.productItem {
+  background-color: white;
+  /* min-width: 400px; */
+
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.845),
+      rgba(255, 255, 255, 0.77)
+    ),
+    url("/images/logobw.png");
+  background-color: white; /* Fallback color */
+  background-size: contain; /* Adjust as needed */
+  background-position: bottom left; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+
+  justify-content: space-between;
+  /* height: 300px; */
+  transition: 0.2s;
+  box-sizing: border-box;
+  /* padding: 1em; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 3em; */
+  /* align-items: center; */
+}
+.productItem:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+@media screen and (max-width: 868px) {
+  .main {
+    padding: 1em;
+  }
+  .category {
+    flex-direction: column;
+  }
+  .search {
+    padding: 0;
+  }
+}
