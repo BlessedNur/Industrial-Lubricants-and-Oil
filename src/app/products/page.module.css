@@ -122,7 +122,9 @@
   .search {
     padding: 0;
   }
-
+  .productItem p {
+    font-size: 25px;
+  }
   .product {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }

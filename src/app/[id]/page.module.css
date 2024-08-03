@@ -112,7 +112,7 @@ data.descriptions div p:first-child {
     /* align-items: center; */
     text-align: center;
   }
-  .descriptions h2{
+   .descriptions h2 {
     font-size: 25px;
   }
   .main {
