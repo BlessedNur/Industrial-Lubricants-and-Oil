@@ -113,6 +113,7 @@
   font-size: 60px;
   text-transform: uppercase;
   font-style: italic;
+  line-height: 70px !important;
   font-weight: 800;
 }
 @media screen and (max-width: 868px) {

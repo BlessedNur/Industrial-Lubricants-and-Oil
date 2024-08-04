@@ -63,6 +63,9 @@ function Navbar() {
             <Link href={"/products"}>Products</Link>
           </li>
           <li>
+            <Link href={"/brands"}>Our Brands</Link>
+          </li>
+          <li>
             <Link href={"/about"}>About</Link>
           </li>
           <li>
@@ -99,64 +102,10 @@ function Navbar() {
         </label>
         <ul className={style.ul}>
           <li className={style.product}>
-            <Link href={""}>Products</Link>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            <div className={style.dropdown}>
-              <ul>
-                <li
-                  onClick={() =>
-                    navigate.push(
-                      `/products/${encodeURIComponent("Gear Oils")}`
-                    )
-                  }
-                >
-                  Gear Oils
-                </li>
-                <li
-                  onClick={() =>
-                    navigate.push(`/products/${encodeURIComponent("Grease")}`)
-                  }
-                >
-                  Grease
-                </li>
-                <li
-                  onClick={() =>
-                    navigate.push(
-                      `/products/${encodeURIComponent(
-                        "Tractor Hydraulic Fluids"
-                      )}`
-                    )
-                  }
-                >
-                  Tractor Hydraulic Fluids
-                </li>
-                <li
-                  onClick={() =>
-                    navigate.push(
-                      `/products/${encodeURIComponent("Transmission")}`
-                    )
-                  }
-                >
-                  Transmission
-                </li>
-                <li
-                  onClick={() =>
-                    navigate.push(`/products/${encodeURIComponent("TIRES")}`)
-                  }
-                >
-                  TIRES
-                </li>
-                <li
-                  onClick={() =>
-                    navigate.push(
-                      `/products/${encodeURIComponent("Engine Lubricants")}`
-                    )
-                  }
-                >
-                  Engine Lubricants
-                </li>
-              </ul>
-            </div>
+            <Link href={"/products"}>Products</Link>
+          </li>
+          <li>
+            <Link href={"/brands"}>Our Brands</Link>
           </li>
           <li>
             <Link href={""}>About</Link>

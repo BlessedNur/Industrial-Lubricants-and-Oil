@@ -2,7 +2,7 @@
 import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import React, { useState, useEffect } from "react";
 import style from "./page.module.css";
 import { allProducts } from "@/components/allProducts";
@@ -15,6 +15,14 @@ function Page() {
   const [displayedProducts, setDisplayedProducts] = useState([]);
   const [productsToShow, setProductsToShow] = useState(20);
   const navigate = useRouter();
+  const searchParams = useSearchParams();
+  let searchCategory = searchParams.get("category");
+
+  useEffect(() => {
+    if (searchCategory) {
+      setCategory(searchCategory.toLowerCase());
+    }
+  }, [searchCategory]);
 
   useEffect(() => {
     const filteredProducts = allProducts.filter((product) => {
@@ -34,7 +42,7 @@ function Page() {
   }, [searchedProducts, productsToShow]);
 
   const handleChange = (event) => {
-    setCategory(event.target.value);
+    setCategory(event.target.value.toLowerCase());
   };
 
   const handleSearch = (e) => {
@@ -64,7 +72,7 @@ function Page() {
           <select name="" value={category} id="" onChange={handleChange}>
             <option value="">Category</option>
             <option value="mobil 1">Mobil 1</option>
-            <option value="castrol edge">Castrol</option>
+            <option value="castrol">Castrol</option>
             <option value="total quartz">Total Quartz</option>
             <option value="valvoline">Valvoline</option>
             <option value="gear oil">Gear oils</option>

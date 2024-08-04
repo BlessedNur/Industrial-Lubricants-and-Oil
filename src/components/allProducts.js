@@ -691,7 +691,7 @@ export const allProducts = [
     name: "castrol edge",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/Castrol-Edge-0w-20-GTX-Ultraclean-Engine-Oil-5-litres.jpeg",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -824,7 +824,7 @@ export const allProducts = [
     name: "Castrol Edge 0w20",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/castrol-edge-w-fluid-titanium-technology-0w20-5l-f893c8c6-a967-41d7-889a-35eb198174c6.webp",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -843,7 +843,7 @@ export const allProducts = [
     name: "Castrol Edge 0w20 Hybrid Vehicle",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/EDGE_0W20_LL_IV_4L.jpeg",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -862,7 +862,7 @@ export const allProducts = [
     name: "castrol Edge 0w20",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/81OTw5j37L-1536x1536.jpeg",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -881,7 +881,7 @@ export const allProducts = [
     name: "castrol edge 10w40",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61FfzY7olWL.jpeg",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -900,7 +900,7 @@ export const allProducts = [
     name: "Castrol Edge 10w50",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/castrol-power-1-10w50-500x500-1.jpeg",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -919,7 +919,7 @@ export const allProducts = [
     name: "Castrol Edge 15w40",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/castrol-engine-oil-500x500-1.webp",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -938,7 +938,7 @@ export const allProducts = [
     name: "Castrol Edge 5w30",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/castrol-edge-5w30-ll-5l-1000x1000-1-768x768.webp",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -957,7 +957,7 @@ export const allProducts = [
     name: "Castrol Edge 5w50",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/0289213_1_700x700.webp",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -976,7 +976,7 @@ export const allProducts = [
     name: "Castrol Edge professional 0w-20",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/CS15AF6F-01-768x768.jpeg",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -1014,7 +1014,7 @@ export const allProducts = [
     name: "castrol GTX full synthetic 5W-20",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61291372-768x768.webp",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -1033,7 +1033,7 @@ export const allProducts = [
     name: "castrol gtx full synthetic 5W-30",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/71Y0CAowaaL-1-768x768.jpeg",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -1052,7 +1052,7 @@ export const allProducts = [
     name: "castro GTX magnatec",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/71Y0CAowaaL-768x768.jpeg",
-    category: ["castrol edge"],
+    category: ["castrol"],
     description: {
       intro: "",
       attributesSection: {
@@ -1653,7 +1653,7 @@ export const allProducts = [
     name: "Mobil 1 0w20",
     image:
       "/products/02912e83-39c6-4b7e-8c5b-321557217d86.33c7beda4f47cc52d29485e47813ddb4.webp",
-    category: ["mobil 1"],
+    category: ["mobil"],
     description: {
       intro: "",
       attributesSection: {
@@ -1708,7 +1708,7 @@ export const allProducts = [
     name: "Mobil 1 10w40",
     image:
       "/products/e8b9c0a7-5a0e-4dda-89a3-0d5403c52245.321aec54f33005c0144796c4f739e59a.jpeg",
-    category: ["mobil 1"],
+    category: ["mobil"],
     description: {
       intro: "",
       attributesSection: {
@@ -1726,7 +1726,7 @@ export const allProducts = [
   {
     name: "Mobil 1 10w50",
     image: "/products/61sI4jzz2KL.jpeg",
-    category: ["mobil 1"],
+    category: ["mobil"],
     description: {
       intro: "",
       attributesSection: {
@@ -1744,7 +1744,7 @@ export const allProducts = [
   {
     name: "Mobil 1 15w40",
     image: "/products/super-1000-15w40-thegem-product-single.png",
-    category: ["mobil 1"],
+    category: ["mobil"],
     description: {
       intro: "",
       attributesSection: {
@@ -1762,7 +1762,7 @@ export const allProducts = [
   {
     name: "Mobil 1 5w30",
     image: "/products/6176dOJFLRL.jpeg",
-    category: ["mobil 1"],
+    category: ["mobil"],
     description: {
       intro: "",
       attributesSection: {
@@ -1780,7 +1780,7 @@ export const allProducts = [
   {
     name: "Mobil 1 5w50",
     image: "/products/Mobil-1-5W50-b.jpeg",
-    category: ["mobil 1"],
+    category: ["mobil"],
     description: {
       intro: "",
       attributesSection: {
