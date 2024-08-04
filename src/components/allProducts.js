@@ -126,7 +126,7 @@ export const allProducts = [
     name: "Mobil Delvac Synthetic Gear Oil 75W-90",
     image:
       "/gear_oils/mobil-delvac_synthetic_gear_oil_75w-90_jug-removebg-preview.png",
-    category: ["gear oil"],
+    category: ["gear oil", "transmission"],
     description: {
       intro:
         "Mobil Delvac 75W-90 Synthetic Gear Oil meets or exceeds the requirements of the following industry and builder specifications:",
@@ -345,53 +345,7 @@ export const allProducts = [
       ],
     },
   },
-  {
-    name: "Delo Gear ESI SAE 80W-90",
-    image:
-      "/gear_oils/chevron_delo_gear_esi_sae_80w-90_pail-removebg-preview.png",
-    category: ["gear oil"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "Delo Gear ESI deliver value through:",
-        attributes: [
-          "Minimal wear — Delo Gear ESI are formulated to promote long life for gears, bearings, and seals.",
-          "Seal compatibility — Seal materials are not adversely affected by Delo Gear ESI at temperatures as high as 163°C (325°F).",
-          "Low operating temperatures — Unique additive chemistry minimizes friction resulting in cool operating temperatures.",
-          "Long lubricant life — The outstanding thermal and oxidation stability characteristics of Delo Gear ESI allow for optimal drain intervals which may result in lubricant savings.",
-          "Fuel savings — The remarkable low friction properties of this product contribute to minimal energy consumption.",
-          "Compatibility — Compatible with conventional sulfur-phosphorus and synthesized hydrocarbon based lubricants.",
-          "High Load Carrying Capacity — Designed to handle extreme pressures, ensuring protection under the most demanding conditions.",
-          "Rust and Corrosion Protection — Provides excellent resistance to rust and corrosion, extending the lifespan of components.",
-          "Foam Control — Formulated to minimize foam formation, ensuring optimal lubrication and performance.",
-          "Versatility — Suitable for a wide range of industrial and automotive applications, making it a versatile choice.",
-          "Environmental Safety — Meets environmental regulations for reduced emissions and pollution control.",
-          "Enhanced Wear Protection — Reduces wear and tear on gears and bearings, leading to lower maintenance costs and downtime.",
-          "Advanced Additive Technology — Incorporates advanced additives for superior performance and protection.",
-          "Energy Efficiency — Helps in reducing energy consumption, contributing to overall operational efficiency.",
-        ],
-      },
-      features: [
-        "Delo Gear ESI are premium grade automotive gear lubricants.",
-        "They are formulated with ISOSYN® Technology and compounded with a unique extreme pressure additive utilizing an inorganic borate compound. They also contain a patented, synergistic combination of additives that protect against wear, seizure, oxidation, corrosion, rust, and foam.",
-        "Delo Gear ESI are ideally suited for gear sets exposed to extremely high temperatures and loads.",
-        "Tests have proven that Delo Gear ESI provide a wear protection film 3 to 5 times thicker than the conventional sulfur-phosphorus antiwear film. The inorganic borate film is composed of compounds that do not react with metal. The film forms promptly to provide exceptional gear protection and maximum thermal stability. By minimizing friction, cool operating temperatures have been observed.",
-      ],
-      details: {
-        intro: "Delo® Gear ESI®:",
-        detail: [
-          "meet the performance requirements of API Service Categories GL-4, GL-5, and MT-1",
-          "are qualified for SAE J2360 (formerly known as MIL-PRF-2105E)",
-          "are approved for Meritor TP-9539 up to 500,000 mile initial and service fill (refer to manufacturer’s recommendations for extended drain lubricants)",
-          "SAE 80W-90 is approved for Mack GO-J PLUS up to 500,000 mile initial and service fill (refer to manufacturer’s recommendations for extended drain lubricants)",
-        ],
-      },
-      application: [
-        "These lubricants are excellent automotive gear lubricants, particularly those operating under severe temperature and load conditions. They provide excellent wear control even in the presence of small amounts of water. Their exceptional thermal and oxidation stability, and antiwear performance promote long gear life and optimal drain intervals.",
-        "Delo Gear ESI SAE 80W-90 was field tested in more than 100 on-highway, Class 8 trucks with drain intervals of 500,000 to 750,000 miles. The product showed excellent field results in axles manufactured by Dana, Meritor, and Mack. It is approved for the extended drain specifications of both Meritor and Mack.",
-      ],
-    },
-  },
+
   {
     name: "Mobil SHC 627",
     image:
@@ -733,382 +687,1849 @@ export const allProducts = [
       ],
     },
   },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   description: {
-  //     intro: "",
-  //     attributesSection: {
-  //       intro: "",
-  //       attributes: [""],
-  //     },
-  //     features: [""],
-  //     details: {
-  //       intro: "",
-  //       detail: [""],
-  //     },
-  //     application: [""],
-  //   },
-  // },
+  {
+    name: "castrol edge",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/Castrol-Edge-0w-20-GTX-Ultraclean-Engine-Oil-5-litres.jpeg",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "anti freeze",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/images.jpg",
+    category: ["chemicals"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "BFGoodrich",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/c53ad7d7-cb0e-476d-819e-28301fc50d61.3a1ec467b4046f41f29d658e33fe7697.webp",
+    category: ["tire"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Bridgestone",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/Bridgestone-July-31.jpeg",
+    category: ["tire"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Bulk Engine Oil",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/Bulk-Tanks1-624x468-1.jpg",
+    category: ["engine lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "air filters",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/filter_udara.jpg",
+    category: ["filteration"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Bulk Filteration",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/1606236995231.jpeg",
+    category: ["filtration"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Castrol Edge 0w20",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/castrol-edge-w-fluid-titanium-technology-0w20-5l-f893c8c6-a967-41d7-889a-35eb198174c6.webp",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Castrol Edge 0w20 Hybrid Vehicle",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/EDGE_0W20_LL_IV_4L.jpeg",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "castrol Edge 0w20",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/81OTw5j37L-1536x1536.jpeg",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "castrol edge 10w40",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61FfzY7olWL.jpeg",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Castrol Edge 10w50",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/castrol-power-1-10w50-500x500-1.jpeg",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Castrol Edge 15w40",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/castrol-engine-oil-500x500-1.webp",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Castrol Edge 5w30",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/castrol-edge-5w30-ll-5l-1000x1000-1-768x768.webp",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Castrol Edge 5w50",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/0289213_1_700x700.webp",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Castrol Edge professional 0w-20",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/CS15AF6F-01-768x768.jpeg",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Castrol Edge radicool 1l",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/image_1024.png",
+    category: ["engine coolant"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "castrol GTX full synthetic 5W-20",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61291372-768x768.webp",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "castrol gtx full synthetic 5W-30",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/71Y0CAowaaL-1-768x768.jpeg",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "castro GTX magnatec",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/71Y0CAowaaL-768x768.jpeg",
+    category: ["castrol edge"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "chvron 1000 tHF",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/chevron_1000_thf_pail.jpg",
+    category: ["tractor hydraulic fluids", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Chevron ATF MD-3 Dextron III-H",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/chevron_atf_md-3_dexron-iii_quart-1.jpg",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Chevron Synthetic All-Weather THF",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/chevron_synthetic_all-weather_thf_pail.jpg",
+    category: ["tractor hydraulic fluids", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Contamination Control Products",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/RetroFit-Kit-624x415-1.jpg",
+    category: ["filteration"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "continental",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/continental_ultracontact_prod-753x1024.jpeg",
+    category: ["tire"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Conventional Engine Oil",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/oil_pour3-624x431-1.jpg",
+    category: ["engine lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "cooper ",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/pneu-ete-COOPER-TIRES-DISCOVERER-AT3-768x768.jpeg",
+    category: ["tire"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Delo TorqForce SAE 10W",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/chevron_delo_torqforce_sae_10w_pail.jpg",
+    category: ["drive train fluid, transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Diesel Exhaust Fluid",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/Air1Def-300x122-1.jpg",
+    category: ["transmission fluids"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "engine oil",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/Engine-Oil-624x468-1.jpg",
+    category: ["engine lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "engine oil filters",
+    image: "/products/Automotive-Oil-Filter.jpg",
+    category: ["filteration"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Food Grade Lubricants",
+    image: "/products/FOOD-GRADE-Lubricants-Post-blog-03.jpg",
+    category: ["industrial lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "gear oil",
+    image: "/products/cropped_1_0.webp",
+    category: ["industrial lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "goodyear",
+    image: "/products/goodyear-tires-1.jpeg",
+    category: ["tire"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "green engine oil",
+    image: "/products/LM-1-Molygen_application1-1.jpg",
+    category: ["engine lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Havoline Full Synthetic Multi-Vehicle ATF",
+    image:
+      "/products/chevron_havoline_full_synthetic_multi_vehicle_atf_quart.jpg",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Havoline Global Multi-Vehicle ATF",
+    image:
+      "/products/chevron_havoline_global_synthetic_blend_multi_vehicle_atf_quart.jpg",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Honda 08200-HCF2 Fluid",
+    image: "/products/honda-08200-hcf2-fluid.png",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Delo Gear ESI SAE 80W-90",
+    image:
+      "/gear_oils/chevron_delo_gear_esi_sae_80w-90_pail-removebg-preview.png",
+    category: ["gear oil"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "Delo Gear ESI deliver value through:",
+        attributes: [
+          "Minimal wear — Delo Gear ESI are formulated to promote long life for gears, bearings, and seals.",
+          "Seal compatibility — Seal materials are not adversely affected by Delo Gear ESI at temperatures as high as 163°C (325°F).",
+          "Low operating temperatures — Unique additive chemistry minimizes friction resulting in cool operating temperatures.",
+          "Long lubricant life — The outstanding thermal and oxidation stability characteristics of Delo Gear ESI allow for optimal drain intervals which may result in lubricant savings.",
+          "Fuel savings — The remarkable low friction properties of this product contribute to minimal energy consumption.",
+          "Compatibility — Compatible with conventional sulfur-phosphorus and synthesized hydrocarbon based lubricants.",
+          "High Load Carrying Capacity — Designed to handle extreme pressures, ensuring protection under the most demanding conditions.",
+          "Rust and Corrosion Protection — Provides excellent resistance to rust and corrosion, extending the lifespan of components.",
+          "Foam Control — Formulated to minimize foam formation, ensuring optimal lubrication and performance.",
+          "Versatility — Suitable for a wide range of industrial and automotive applications, making it a versatile choice.",
+          "Environmental Safety — Meets environmental regulations for reduced emissions and pollution control.",
+          "Enhanced Wear Protection — Reduces wear and tear on gears and bearings, leading to lower maintenance costs and downtime.",
+          "Advanced Additive Technology — Incorporates advanced additives for superior performance and protection.",
+          "Energy Efficiency — Helps in reducing energy consumption, contributing to overall operational efficiency.",
+        ],
+      },
+      features: [
+        "Delo Gear ESI are premium grade automotive gear lubricants.",
+        "They are formulated with ISOSYN® Technology and compounded with a unique extreme pressure additive utilizing an inorganic borate compound. They also contain a patented, synergistic combination of additives that protect against wear, seizure, oxidation, corrosion, rust, and foam.",
+        "Delo Gear ESI are ideally suited for gear sets exposed to extremely high temperatures and loads.",
+        "Tests have proven that Delo Gear ESI provide a wear protection film 3 to 5 times thicker than the conventional sulfur-phosphorus antiwear film. The inorganic borate film is composed of compounds that do not react with metal. The film forms promptly to provide exceptional gear protection and maximum thermal stability. By minimizing friction, cool operating temperatures have been observed.",
+      ],
+      details: {
+        intro: "Delo® Gear ESI®:",
+        detail: [
+          "meet the performance requirements of API Service Categories GL-4, GL-5, and MT-1",
+          "are qualified for SAE J2360 (formerly known as MIL-PRF-2105E)",
+          "are approved for Meritor TP-9539 up to 500,000 mile initial and service fill (refer to manufacturer’s recommendations for extended drain lubricants)",
+          "SAE 80W-90 is approved for Mack GO-J PLUS up to 500,000 mile initial and service fill (refer to manufacturer’s recommendations for extended drain lubricants)",
+        ],
+      },
+      application: [
+        "These lubricants are excellent automotive gear lubricants, particularly those operating under severe temperature and load conditions. They provide excellent wear control even in the presence of small amounts of water. Their exceptional thermal and oxidation stability, and antiwear performance promote long gear life and optimal drain intervals.",
+        "Delo Gear ESI SAE 80W-90 was field tested in more than 100 on-highway, Class 8 trucks with drain intervals of 500,000 to 750,000 miles. The product showed excellent field results in axles manufactured by Dana, Meritor, and Mack. It is approved for the extended drain specifications of both Meritor and Mack.",
+      ],
+    },
+  },
+  {
+    name: "Honda DW-1 ATF",
+    image: "/products/honda_genuine_atf_dw-1_automatic_transmission_fluid.jpg",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Honda Genuine VTM-4 Differential Fluid",
+    image: "/products/honda_genuine_vtm-4_differential_fluid.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "hydraulic fluid",
+    image: "/products/Hydraulics-300x300-1.jpg",
+    category: ["industrial lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "industrial filters",
+    image: "/products/AutoLubeslider-624x390-1.jpg",
+    category: ["filteration"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "industrial grease",
+    image: "/products/Industrial-Grease-225x300-1.jpg",
+    category: ["industrial lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Kendall VersaTrans LV ATF",
+    image: "/products/kendall_versatrans_lv_atf.png",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Lubegard Universal CVT Fluid",
+    image: "/products/lubegard_universal_cvt_fluid.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Lubegaurd ATF Protectant",
+    image: "/products/automatic_transmission_fluid_atf_protectant.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Lubeguard Platinum ATF Protectant",
+    image: "/products/lubeguard_platinum_atf_protectant.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Metalworking Fluids",
+    image:
+      "/products/photodune-15124839-metalworking-cnc-milling-machine-l.jpg",
+    category: ["industrial lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Michellin Tires",
+    image: "/products/MC-LTXAT_1024x1024.webp",
+    category: ["tire"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobil 1 0w20",
+    image:
+      "/products/02912e83-39c6-4b7e-8c5b-321557217d86.33c7beda4f47cc52d29485e47813ddb4.webp",
+    category: ["mobil 1"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobil 1 0w20 hybrid vehicle",
+    image: "/products/download (1).jpeg",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobil 1 0w40",
+    image: "/products/81jW8v12xgL._SY550_.jpg",
+    category: ["mobile 1"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobil 1 10w40",
+    image:
+      "/products/e8b9c0a7-5a0e-4dda-89a3-0d5403c52245.321aec54f33005c0144796c4f739e59a.jpeg",
+    category: ["mobil 1"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobil 1 10w50",
+    image: "/products/61sI4jzz2KL.jpeg",
+    category: ["mobil 1"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobil 1 15w40",
+    image: "/products/super-1000-15w40-thegem-product-single.png",
+    category: ["mobil 1"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobil 1 5w30",
+    image: "/products/6176dOJFLRL.jpeg",
+    category: ["mobil 1"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobil 1 5w50",
+    image: "/products/Mobil-1-5W50-b.jpeg",
+    category: ["mobil 1"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobilfluid 424",
+    image: "/products/mobilfluid_424_pail_1.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Mobiltrans HD 30",
+    image: "/products/mobilfluid_424_pail_1.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Motorcraft Antifreeze Coolant 3.78L",
+    image: "/products/motorcraft_yellow_concentrate_3_78_l.jpeg",
+    category: ["engine coolant"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Oil Safe",
+    image: "/products/Xpel-Containers-1.png",
+    category: [""],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Olympus Synthetic Gear SAE 75W90",
+    image: "/products/olympus_synthetic_gear_lubricant_75w90_pail_1.jpg",
+    category: ["grease"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Olympus Synthetic HD MVP ATF TES-295",
+    image: "/products/olympus_hd_synthetic_atf_tes-295.jpg",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Olympus THF Red",
+    image: "/products/olympus_thf_red.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "PEAK OET Antifreeze",
+    image: "/products/oet_naeuas-1.png",
+    category: ["engine coolant"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Phillips 66 CVT Fluid",
+    image: "/products/phillips_66_cvt_fluid.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Phillips 66 PowerDrive Fluid SAE 30",
+    image: "/products/phillips_66_powerdrive_fluid_sae_30.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Phillips 66 PowerTran Fluid",
+    image: "/products/phillips-6__powertran_fluid_pail.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Phillips 66 VersaTrans LV ATF",
+    image: "/products/p66_atf_fs_versatrans_lv_atf-1.png",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "PRESTONE COOLANT Antifreeze 4L (Yellow)",
+    image: "/products/1831821-01-jpg.jpeg",
+    category: ["engine coolant"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Semi-Synthetic Engine Oil",
+    image: "/products/image1.jpg",
+    category: ["engine lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Shell Spirax S4 CX 10W",
+    image: "/products/shell_spirax_s4_cx_10w_pail.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Shell Spirax S4 TXM",
+    image: "/products/shell_spirax_s4_txm_tractor_hydraulic_fluid_pail.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Shell Spirax S6 ATF A295",
+    image: "/products/shell_spirax_s6_atf_a295_pail.jpg",
+    category: ["atf", "transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Synthetic Engine Oil",
+    image: "/products/oil_pour1-624x500-1.jpg",
+    category: ["engine lubricants"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Synthetic Transmission Fluid",
+    image:
+      "/products/automatic-transmission-fluid-synthetic-grouping-2020-fb-og.jpg",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "TOTAL coolant 1L 5L",
+    image: "/products/Coolelf_Auto_Supra_-37_1L_5.jpeg",
+    category: ["engine coolant"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Total Quartz 0w20",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYsAFVOzfsBy53hQG1kg4VQvuYR7Eu_APrVA&s",
+    category: ["total quartz"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Total Quartz 0w20 Hybrid Vehicle",
+    image: "/products/430f93c9f4353479378c281da98a8661_700x700.webp",
+    category: ["total quartz"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Total Quartz 0w40",
+    image: "/products/total-quartz-9000-energy-0w-40-1-liter.jpeg",
+    category: ["total quartz"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Total Quartz 10w40",
+    image: "/products/Quartz_7000_10W-40_1x5.jpeg",
+    category: ["total quartz"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Total Quartz 10w50",
+    image: "/products/5f92cd61cdada121c1394301_QUARTZ-RACING-10W50_5L.jpeg",
+    category: ["total quartz"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Total Quartz 15w40",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBc_mDu-0xZRcRMrCMEfzurGCf87NRN2DpQ&s",
+    category: ["total quartz"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Total Quartz 5w30",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/khwthch_9000_fiwecchr_efchiicchii_5w-01.webp",
+    category: ["total quartz"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Total Quartz 5w50",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/pck_total_quartz_9000_sn_5w50_9qf_202001_4l_sgp.webp",
+    category: ["total quartz"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "transmission fluids",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/transmission_fluid-768x572.webp",
+    category: ["transmission"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Valvoline 0w20",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61QUap4DaPL-768x768.jpeg",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Valvoline 0w20 Hybrid Vehicle",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/207161937.jpeg",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Valvoline 0w40",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/valvoline-0w40-4.jpeg",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Valvoline 10w40",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61BPQXidtL-768x768.jpeg",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Valvoline 10w50",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/s-l1600-768x768.jpeg",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Valvoline 15w40",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/valvoline-cummins-mineral-5l-15w40-engine-oil-768x768.jpeg",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Valvoline 5w30",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61CJHOSITXL-768x768.jpeg",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "valvoline 5w50",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/valvoline-5w50-premium-synthetic-engine-oil-vr1-racing-a3b4-ford-gm-873434-210980-768x768.webp",
+    category: ["valvoline"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "window wash",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/chemicals-cleaners.jpg",
+    category: [""],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "Yokohama",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61-mbOFkk3L-768x768.jpeg",
+    category: ["tire"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
+  {
+    name: "ZEREX Valvoline Antifreeze Coolant 5L",
+    image:
+      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/81ZELLxUXlL-768x1228.jpeg",
+    category: ["engine coolant"],
+    description: {
+      intro: "",
+      attributesSection: {
+        intro: "",
+        attributes: [""],
+      },
+      features: [""],
+      details: {
+        intro: "",
+        detail: [""],
+      },
+      application: [""],
+    },
+  },
 ];

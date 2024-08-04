@@ -2,6 +2,16 @@
   max-width: 1300px;
   margin: 0 auto;
 }
+.loadMore{
+  width: 100%;
+  padding: 1em;
+  text-transform: uppercase;
+  background-color: #fab712;
+  color: #060a17;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+}
 .category {
   background-color: #fab712;
   padding: 1em;

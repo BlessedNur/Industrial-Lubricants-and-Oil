@@ -3,7 +3,7 @@ import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import { usePathname, useRouter } from "next/navigation";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import style from "./page.module.css";
 import { allProducts } from "@/components/allProducts";
 import Image from "next/image";
@@ -11,23 +11,40 @@ import Image from "next/image";
 function Page() {
   const [searchValue, setSearchValue] = useState("");
   const [category, setCategory] = useState("");
-  const [SearchedProducts, setSearchedProducts] = useState([]);
+  const [searchedProducts, setSearchedProducts] = useState([]);
+  const [displayedProducts, setDisplayedProducts] = useState([]);
+  const [productsToShow, setProductsToShow] = useState(20);
   const navigate = useRouter();
+
+  useEffect(() => {
+    const filteredProducts = allProducts.filter((product) => {
+      const isInCategory = category
+        ? product.category.includes(category)
+        : true;
+      const matchesSearch = product.name
+        .toLowerCase()
+        .includes(searchValue.toLowerCase());
+      return isInCategory && matchesSearch;
+    });
+    setSearchedProducts(filteredProducts);
+  }, [searchValue, category]);
+
+  useEffect(() => {
+    setDisplayedProducts(searchedProducts.slice(0, productsToShow));
+  }, [searchedProducts, productsToShow]);
+
   const handleChange = (event) => {
-    const selectedCategory = event.target.value;
-    setCategory(selectedCategory);
-    if (selectedCategory !== "category") {
-      navigate.push(`/products/${selectedCategory}`);
-    }
+    setCategory(event.target.value);
   };
-  const path = usePathname();
+
   const handleSearch = (e) => {
     setSearchValue(e.target.value);
-    const filteredProducts = allProducts.filter((product) =>
-      product.name.toLowerCase().includes(searchValue.toLowerCase())
-    );
-    setSearchedProducts(filteredProducts);
   };
+
+  const loadMoreProducts = () => {
+    setProductsToShow((prev) => prev + 20);
+  };
+
   return (
     <section>
       <Navbar />
@@ -45,17 +62,22 @@ function Page() {
             Choose your <br /> category
           </h1>
           <select name="" value={category} id="" onChange={handleChange}>
-            <option value="Category" selected>
-              Category
-            </option>
-            <option value="Gear oil">Gear oils</option>
-            <option value="Grease">Grease</option>
-            <option value="Tractor Hydraulic Fluids">
+            <option value="">Category</option>
+            <option value="mobil 1">Mobil 1</option>
+            <option value="castrol edge">Castrol</option>
+            <option value="total quartz">Total Quartz</option>
+            <option value="valvoline">Valvoline</option>
+            <option value="gear oil">Gear oils</option>
+            <option value="grease">Grease</option>
+            <option value="tractor hydraulic fluids">
               Tractor Hydraulic Fluids
             </option>
-            <option value="Transmission">Transmission</option>
-            <option value="TIRES">TIRES</option>
-            <option value="Engine Lubricants">Engine Lubricants</option>
+            <option value="transmission">Transmission</option>
+            <option value="tire">TIRES</option>
+            <option value="filteration">Filters</option>
+            <option value="engine coolant">Engine Coolant</option>
+            <option value="engine lubricants">Engine Lubricants</option>
+            <option value="industrial lubricants">Industrial Lubricants</option>
           </select>
           <div className={style.search}>
             <input
@@ -64,54 +86,51 @@ function Page() {
               onChange={handleSearch}
               placeholder="Search.."
             />
-            <i class="fa fa-search" aria-hidden="true"></i>
+            <i className="fa fa-search" aria-hidden="true"></i>
           </div>
         </div>
         <div className={style.product}>
-          {SearchedProducts.length === 0
-            ? allProducts.map((product, index) => (
-                <div
-                  key={index}
-                  className={style.productItem}
-                  onClick={() => {
-                    navigate.push(`/${encodeURIComponent(product.name)}`);
-                  }}
-                >
-                  <div className={style.image}>
-                    <img src={product.image} alt={product.name} />
-                  </div>
-                  <p>{product.name}</p>
-                  <div className={style.icon}>
-                    <Image
-                      width={1000}
-                      height={1000}
-                      src={"/images/Icon-feather-arrow-down-right.svg"}
-                    />
-                  </div>
+          {displayedProducts.length === 0 ? (
+            <p
+              style={{
+                textTransform: "uppercase",
+                fontStyle: "italic",
+                fontSize: "30px",
+                color: "white",
+                fontWeight: "800",
+              }}
+            >
+              No products found
+            </p>
+          ) : (
+            displayedProducts.map((product, index) => (
+              <div
+                key={index}
+                className={style.productItem}
+                onClick={() => {
+                  navigate.push(`/${encodeURIComponent(product.name)}`);
+                }}
+              >
+                <div className={style.image}>
+                  <img src={product.image} alt={product.name} />
                 </div>
-              ))
-            : SearchedProducts.map((product, index) => (
-                <div
-                  key={index}
-                  className={style.productItem}
-                  onClick={() => {
-                    navigate.push(`/${encodeURIComponent(product.name)}`);
-                  }}
-                >
-                  <div className={style.image}>
-                    <img src={product.image} alt={product.name} />
-                  </div>
-                  <p>{product.name}</p>
-                  <div className={style.icon}>
-                    <Image
-                      width={1000}
-                      height={1000}
-                      src={"/images/Icon-feather-arrow-down-right.svg"}
-                    />
-                  </div>
+                <p>{product.name}</p>
+                <div className={style.icon}>
+                  <Image
+                    width={1000}
+                    height={1000}
+                    src={"/images/Icon-feather-arrow-down-right.svg"}
+                  />
                 </div>
-              ))}
+              </div>
+            ))
+          )}
         </div>
+        {displayedProducts.length < searchedProducts.length && (
+          <button className={style.loadMore} onClick={loadMoreProducts}>
+            Load more products
+          </button>
+        )}
       </div>
       <Footer />
     </section>
