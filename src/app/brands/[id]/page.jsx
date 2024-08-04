@@ -53,7 +53,9 @@ function Page({ params }) {
 
             <button
               onClick={() => {
-                navigate.push(`/products?category=${encodeURIComponent(activeB.name)}`);
+                navigate.push(
+                  `/products?category=${encodeURIComponent(activeB.name)}`
+                );
               }}
             >
               VIEW PRODUCTS
@@ -68,30 +70,34 @@ function Page({ params }) {
         <div className={style.descriptions}>
           <h1>History</h1>
           <p>{activeB.history}</p>
-          <h1>Related products</h1>
-          <div className={style.product}>
-            {relatedProducts.map((product, index) => (
-              <div
-                key={index}
-                className={style.productItem}
-                onClick={() => {
-                  navigate.push(`/${encodeURIComponent(product.name)}`);
-                }}
-              >
-                <div className={style.image}>
-                  <img src={product.image} alt={product.name} />
-                </div>
-                <p>{product.name}</p>
-                <div className={style.icon}>
-                  <Image
-                    width={1000}
-                    height={1000}
-                    src={"/images/Icon-feather-arrow-down-right.svg"}
-                  />
-                </div>
+          {relatedProducts.length > 0 && (
+            <>
+              <h1>Related products</h1>
+              <div className={style.product}>
+                {relatedProducts.map((product, index) => (
+                  <div
+                    key={index}
+                    className={style.productItem}
+                    onClick={() => {
+                      navigate.push(`/${encodeURIComponent(product.name)}`);
+                    }}
+                  >
+                    <div className={style.image}>
+                      <img src={product.image} alt={product.name} />
+                    </div>
+                    <p>{product.name}</p>
+                    <div className={style.icon}>
+                      <Image
+                        width={1000}
+                        height={1000}
+                        src={"/images/Icon-feather-arrow-down-right.svg"}
+                      />
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </>
+          )}
         </div>
       </section>
       <Footer />
