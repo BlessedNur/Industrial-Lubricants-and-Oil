@@ -2,7 +2,7 @@
   max-width: 1300px;
   margin: 0 auto;
 }
-.loadMore{
+.loadMore {
   width: 100%;
   padding: 1em;
   text-transform: uppercase;
@@ -137,6 +137,13 @@
     font-size: 25px;
   }
   .product {
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 0.5em;
+  }
+  .image {
+    width: 100%;
+  }
+  .productItem p {
+    font-size: 20px;
   }
 }
