@@ -7,7 +7,7 @@ import { brands } from "@/components/brands";
 import style from "./page.module.css";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-function page() {
+function Page() {
   const navigate = useRouter();
   return (
     <section>
@@ -48,4 +48,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
