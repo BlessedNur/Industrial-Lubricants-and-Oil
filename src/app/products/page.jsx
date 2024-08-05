@@ -71,34 +71,32 @@ function PageContent() {
           </h1>
           <select name="" value={category} id="" onChange={handleChange}>
             <option value="">Category</option>
-            <option value="mobil 1">Mobil 1</option>
             <option value="castrol">Castrol</option>
-            <option value="total">Total Quartz</option>
-            <option value="valvoline">Valvoline</option>
+            <option value="engine coolant">Engine Coolant</option>
+            <option value="engine lubricants">Engine Lubricants</option>
+            <option value="filters">Filters</option>
             <option value="gear oil">Gear oils</option>
             <option value="grease">Grease</option>
+            <option value="industrial lubricants">Industrial Lubricants</option>
+            <option value="kixx">Kixx</option>
+            <option value="liqui moly">Liqui Moly</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="mobil 1">Mobil 1</option>
+            <option value="motul">Motul</option>
+            <option value="pennzoil">Pennzoil</option>
+            <option value="quaker">Quaker</option>
+            <option value="rotella">Rotella</option>
+            <option value="royal purple">Royal Purple</option>
+            <option value="servo futura">Servo Futura</option>
+            <option value="shell">Shell</option>
+            <option value="tires">Tires</option>
+            <option value="total">Total Quartz</option>
+            <option value="toyota">Toyota</option>
             <option value="tractor hydraulic fluids">
               Tractor Hydraulic Fluids
             </option>
             <option value="transmission">Transmission</option>
-            <option value="tire">TIRES</option>
-            <option value="filteration">Filters</option>
-            <option value="engine coolant">Engine Coolant</option>
-            <option value="engine lubricants">Engine Lubricants</option>
-            <option value="industrial lubricants">Industrial Lubricants</option>
-            <option value="liqui moly">Liqui Moly</option>
-            <option value="shell">Shell</option>
-            <option value="motul">Motul</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="toyota">Toyota</option>
-            <option value="rotella">Rotella</option>
-            <option value="kixx">Kixx</option>
-            <option value="quaker">Quaker</option>
-            <option value="havoline">Havoline</option>
-            <option value="pennzoil">Pennzoil</option>
-            <option value="royal purple">Royal Purple</option>
-            <option value="servo futura">Servo Futura</option>
-            <option value="gulf pride">Gulf Pride</option>
+            <option value="valvoline">Valvoline</option>
           </select>
           <div className={style.search}>
             <input
