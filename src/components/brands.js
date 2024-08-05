@@ -9,7 +9,7 @@ export const brands = [
       "Castrol was founded in 1899 as C.C. Wakefield & Company by Charles Cheers Wakefield. The company introduced its first lubricant, which contained castor oil, hence the name Castrol.",
   },
   {
-    name: "liqui Moly",
+    name: "liqui moly",
     image:
       "https://seeklogo.com/images/L/Liqui_Moly-logo-3575A84F1F-seeklogo.com.png",
     founded: 1957,
@@ -45,7 +45,7 @@ export const brands = [
       "Motul was founded in 1853 as Swan & Finch in New York, and it later moved to France. It is known for producing high-performance motor oils and lubricants for various vehicles.",
   },
   {
-    name: "total quartz",
+    name: "total",
     image:
       "https://seeklogo.com/images/T/total-quartz-engine-oil-logo-F66E2CBFA2-seeklogo.com.png",
     founded: 1924,
@@ -92,11 +92,11 @@ export const brands = [
   {
     name: "quaker",
     image:
-      "https://www.oil-store.co.uk/wp-content/uploads/2019/08/Quaker-Houghton.jpg",
+      "https://seeklogo.com/images/Q/quaker-state-logo-E382E3D5C1-seeklogo.com.png",
     founded: 1919,
     country: "United States",
     history:
-      "Quaker Chemical Corporation, now Quaker Houghton, was founded in 1919. It specializes in providing industrial lubricants and process fluids.",
+      "Quaker State was originally part of Quaker Chemical Corporation, founded in 1919. The company specialized in industrial lubricants and process fluids. Over the years, Quaker State has evolved and is now known as Quaker Houghton, continuing its legacy in providing high-quality lubricants and fluid solutions for various industries.",
   },
   {
     name: "mobil",

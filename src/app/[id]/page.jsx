@@ -26,9 +26,25 @@ function Page({ params }) {
     );
   }
 
-  const { name, category, image, description } = product;
-  const { intro, attributesSection, features, details, application } =
-    description || {};
+  const {
+    name,
+    category,
+    image,
+    description,
+    vehicle,
+    flashPoints,
+    liquidVolume,
+    size,
+    features,
+  } = product;
+
+  let intro, attributesSection, details, application;
+
+  if (typeof description === "string") {
+    intro = description;
+  } else {
+    ({ intro, attributesSection, details, application } = description || {});
+  }
 
   const hasAttributes =
     attributesSection &&
@@ -54,7 +70,39 @@ function Page({ params }) {
             </div>
             <h1>{name}</h1>
             {category.length > 0 && category[0] && (
-              <h2>{category.join(", ")}</h2>
+              <div>
+                <h2>Brand</h2>
+                <h2>:</h2>
+                <h2>{category.join(", ")}</h2>
+              </div>
+            )}
+            {vehicle && vehicle.length > 0 && vehicle[0] && (
+              <div>
+                <h2>Vehicle</h2>
+                <h2>:</h2>
+                <h2>{vehicle.join(", ")}</h2>
+              </div>
+            )}
+            {flashPoints && (
+              <div>
+                <h2>Flash Points</h2>
+                <h2>:</h2>
+                <h2>{flashPoints}</h2>
+              </div>
+            )}
+            {liquidVolume && (
+              <div>
+                <h2>Liquid Volume</h2>
+                <h2>:</h2>
+                <h2>{liquidVolume}</h2>
+              </div>
+            )}
+            {size && (
+              <div>
+                <h2>Size</h2>
+                <h2>:</h2>
+                <h2>{size}</h2>
+              </div>
             )}
             <button>PURCHASE</button>
           </div>
@@ -140,7 +188,6 @@ function Page({ params }) {
                 {application.map((app, index) =>
                   app ? (
                     <li key={index}>
-                      {" "}
                       <i
                         className="fusion-li-icon fa-tint fas"
                         aria-hidden="true"

@@ -73,7 +73,7 @@ function PageContent() {
             <option value="">Category</option>
             <option value="mobil 1">Mobil 1</option>
             <option value="castrol">Castrol</option>
-            <option value="total quartz">Total Quartz</option>
+            <option value="total">Total Quartz</option>
             <option value="valvoline">Valvoline</option>
             <option value="gear oil">Gear oils</option>
             <option value="grease">Grease</option>
@@ -86,6 +86,19 @@ function PageContent() {
             <option value="engine coolant">Engine Coolant</option>
             <option value="engine lubricants">Engine Lubricants</option>
             <option value="industrial lubricants">Industrial Lubricants</option>
+            <option value="liqui moly">Liqui Moly</option>
+            <option value="shell">Shell</option>
+            <option value="motul">Motul</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="toyota">Toyota</option>
+            <option value="rotella">Rotella</option>
+            <option value="kixx">Kixx</option>
+            <option value="quaker">Quaker</option>
+            <option value="havoline">Havoline</option>
+            <option value="pennzoil">Pennzoil</option>
+            <option value="royal purple">Royal Purple</option>
+            <option value="servo futura">Servo Futura</option>
+            <option value="gulf pride">Gulf Pride</option>
           </select>
           <div className={style.search}>
             <input
