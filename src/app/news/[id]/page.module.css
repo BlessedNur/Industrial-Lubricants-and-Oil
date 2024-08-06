@@ -1,0 +1,27 @@
+.info {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+  /* color: white; */
+}
+.news {
+  background: #fff;
+  padding: 2em 0;
+}
+.info ol {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  margin: 1em;
+}
+.info h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(6, 10, 23);
+  line-height: 41px;
+}
+.info p{
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(6, 10, 23);
+}

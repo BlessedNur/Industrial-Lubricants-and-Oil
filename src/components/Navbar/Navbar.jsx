@@ -108,13 +108,13 @@ function Navbar() {
             <Link href={"/brands"}>Our Brands</Link>
           </li>
           <li>
-            <Link href={""}>About</Link>
+            <Link href={"/about"}>About</Link>
           </li>
           <li>
-            <Link href={""}>News</Link>
+            <Link href={"/news"}>News</Link>
           </li>
           <li>
-            <Link href={""}>Contact</Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
           <div className={style.search}>
             <i class="fa fa-search" aria-hidden="true"></i>

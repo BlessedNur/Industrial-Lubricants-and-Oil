@@ -1,0 +1,12 @@
+.about {
+  color: white;
+  max-width: 1300px;
+ display: flex; 
+ flex-direction: column;
+ gap: 2em;
+
+  margin: 0 auto;
+}
+.about p{
+  font-size: 24px;
+}
