@@ -71,7 +71,7 @@ function Page({ params }) {
             <h1>{name}</h1>
             {category.length > 0 && category[0] && (
               <div>
-                <h2>Brand</h2>
+                <h2>Brand / Category</h2>
                 <h2>:</h2>
                 <h2>{category.join(", ")}</h2>
               </div>
