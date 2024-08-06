@@ -73,7 +73,11 @@
   place-content: center;
   width: 60%;
   padding: 2em;
+  height: 20em;
   margin: 0 auto;
+}
+.image img{
+  width: 95%;
 }
 .icon img {
   width: 15%;
@@ -89,7 +93,7 @@
 }
 
 .productItem p {
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   text-align: center;
   font-style: italic;
@@ -97,6 +101,7 @@
 }
 .productItem {
   background-color: white;
+  overflow: hidden;
   /* min-width: 400px; */
 
   background: linear-gradient(
@@ -134,7 +139,7 @@
     padding: 0;
   }
   .productItem p {
-    font-size: 25px;
+    font-size: 17px;
   }
   .product {
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
