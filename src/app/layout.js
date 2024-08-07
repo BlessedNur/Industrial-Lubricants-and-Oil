@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
       </Head>
 
       <Toaster position="top-right" expand={true} richColors />
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+      <script src="//code.tidio.co/yctln8xzxrvonvybuxecrivtorm69xoh.js" async></script>
+      </body>
     </html>
   );
 }
