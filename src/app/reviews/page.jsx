@@ -17,7 +17,7 @@ function Page() {
         presentPage={"reviews"}
         diff={true}
         text={"reviews"}
-        textIntro={"Hear What Our Clients Have to Say"}
+        extraText={"Hear What Our Clients Have to Say"}
       />
       <Footer />
     </section>
