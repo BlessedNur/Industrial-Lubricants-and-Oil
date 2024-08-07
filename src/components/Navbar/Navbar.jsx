@@ -69,6 +69,9 @@ function Navbar() {
             <Link href={"/about"}>About</Link>
           </li>
           <li>
+            <Link href={"/reviews"}>Reviews</Link>
+          </li>
+          <li>
             <Link href={"/news"}>News</Link>
           </li>
           <li>
@@ -111,14 +114,14 @@ function Navbar() {
             <Link href={"/about"}>About</Link>
           </li>
           <li>
+            <Link href={"/reviews"}>Reviews</Link>
+          </li>
+          <li>
             <Link href={"/news"}>News</Link>
           </li>
           <li>
             <Link href={"/contact"}>Contact</Link>
           </li>
-          <div className={style.search}>
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </div>
         </ul>
       </section>
     </section>
