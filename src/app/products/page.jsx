@@ -73,11 +73,9 @@ function PageContent() {
             <option value="">Category</option>
             <option value="castrol">Castrol</option>
             <option value="engine coolant">Engine Coolant</option>
-            <option value="engine lubricants">Engine Lubricants</option>
-            <option value="filters">Filters</option>
+            <option value="filteration">Filters</option>
             <option value="gear oil">Gear oils</option>
             <option value="grease">Grease</option>
-            <option value="industrial lubricants">Industrial Lubricants</option>
             <option value="kixx">Kixx</option>
             <option value="liqui moly">Liqui Moly</option>
             <option value="mercedes">Mercedes</option>
@@ -92,10 +90,6 @@ function PageContent() {
             <option value="tires">Tires</option>
             <option value="total">Total Quartz</option>
             <option value="toyota">Toyota</option>
-            <option value="tractor hydraulic fluids">
-              Tractor Hydraulic Fluids
-            </option>
-            <option value="transmission">Transmission</option>
             <option value="valvoline">Valvoline</option>
           </select>
           <div className={style.search}>

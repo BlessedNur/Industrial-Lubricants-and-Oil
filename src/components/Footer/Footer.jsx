@@ -85,7 +85,9 @@ function Footer() {
           </div>
           <div className={style.line}>
             <i className="fa fa-envelope" aria-hidden="true"></i>
-            <Link href="mailto:company@example.com">company@example.com</Link>
+            <Link href="mailto:contactsebwholesale@gmail.com">
+              contactsebwholesale@gmail.com
+            </Link>
           </div>
         </div>
 

@@ -1,0 +1,150 @@
+.order input,
+.order textarea {
+  padding: 1em;
+  border: none;
+  font-size: 22px;
+  outline: none;
+  width: 100%;
+}
+.order input[type="radio"] {
+  padding: 0;
+  width: fit-content;
+}
+.delivery {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.delivery div {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.order button {
+  border: none;
+  background-color: black;
+  color: black;
+  font-size: 22px;
+  padding: 1em 3em;
+  text-transform: uppercase;
+  background-color: #fab712;
+  /* height: 100%; */
+  font-weight: 800;
+  font-style: italic;
+  cursor: pointer;
+}
+.left div {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items:  start !important;
+}
+.names {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.info h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 40px;
+  font-weight: 800;
+}
+.left {
+}
+.info h2 {
+  font-size: 17px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fab712 !important;
+}
+.path {
+  align-items: center;
+  gap: 0.5em;
+  display: flex;
+}
+.path p {
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.order {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 8em;
+  display: flex;
+  justify-content: space-between;
+}
+.order form,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.order h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+}
+.left a,
+.left i {
+  font-size: 24px;
+  color: #fab712;
+}
+.left {
+  /* padding: 0 3em; */
+  /* width: 50%; */
+}
+.right {
+  /* width: 90%; */
+  display: grid;
+  place-content: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.line {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.order img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rightM {
+  width: 90%;
+}
+.order {
+  color: white;
+  gap: 3em;
+}
+@media screen and (max-width: 868px) {
+  /* .order {
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em;
+  }
+  .right {
+    width: 100%;
+  }
+  .left {
+    flex-direction: row;
+    width: 100%;
+    margin: 1em 0;
+  } */
+  .order{
+    flex-direction: column;
+    padding: 1em;
+  }
+}

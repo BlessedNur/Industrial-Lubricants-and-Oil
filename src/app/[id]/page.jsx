@@ -8,6 +8,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 function Page({ params }) {
+  const [relatedProducts, setRelatedProducts] = useState([]);
   const id = decodeURIComponent(params.id);
   const [product, setProduct] = useState(null);
   const navigate = useRouter();
@@ -15,6 +16,15 @@ function Page({ params }) {
   useEffect(() => {
     const foundProduct = allProducts.find((product) => product.name === id);
     setProduct(foundProduct);
+
+    if (foundProduct) {
+      const related = allProducts.filter(
+        (p) =>
+          p.category.some((cat) => foundProduct.category.includes(cat)) &&
+          p.name !== foundProduct.name
+      );
+      setRelatedProducts(related);
+    }
   }, [id]);
 
   if (!product) {
@@ -104,7 +114,15 @@ function Page({ params }) {
                 <h2>{size}</h2>
               </div>
             )}
-            <button>PURCHASE</button>
+            <button
+              onClick={() =>
+                navigate.push(
+                  `/order/${encodeURIComponent(product.name)}`
+                )
+              }
+            >
+              PURCHASE
+            </button>
           </div>
           <div className={style.right}>
             <Image src={image} width={1000} height={1000} alt={name} />
@@ -160,6 +178,24 @@ function Page({ params }) {
               </ul>
             </div>
           )}
+          {description.features && description.features.length > 0 && (
+            <div>
+              <h2>Features</h2>
+              <ul>
+                {description.features.map((feature, index) =>
+                  feature ? (
+                    <li key={index}>
+                      <i
+                        className="fusion-li-icon fa-tint fas"
+                        aria-hidden="true"
+                      ></i>
+                      <p>{feature}</p>
+                    </li>
+                  ) : null
+                )}
+              </ul>
+            </div>
+          )}
           {hasDetails && (
             <div>
               {details.intro && (
@@ -198,6 +234,34 @@ function Page({ params }) {
                 )}
               </ul>
             </div>
+          )}
+          {relatedProducts.length > 0 && (
+            <>
+              <h1>Related products</h1>
+              <div className={style.product}>
+                {relatedProducts.map((product, index) => (
+                  <div
+                    key={index}
+                    className={style.productItem}
+                    onClick={() => {
+                      navigate.push(`/${encodeURIComponent(product.name)}`);
+                    }}
+                  >
+                    <div className={style.image}>
+                      <img src={product.image} alt={product.name} />
+                    </div>
+                    <p>{product.name}</p>
+                    <div className={style.icon}>
+                      <Image
+                        width={1000}
+                        height={1000}
+                        src={"/images/Icon-feather-arrow-down-right.svg"}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
           )}
         </div>
       </section>

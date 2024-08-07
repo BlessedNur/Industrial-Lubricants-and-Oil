@@ -10,7 +10,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Castrol GTX Full Synthetic Motor Oil provides maximum protection to help fight the impact of severe conditions that can potentially shorten engine life",
+        "Castrol GTX Full Synthetic has been proven to dramatically reduce engine wear – 6X better than the industry standard",
+        "1.3X better sludge protection than industry standards",
+        "Full synthetic formula provides thermal and oxidation stability with a superior level of protection against viscosity breakdown",
+        "Specifications: API SP/SN PLUS/SN, ILSAC GF-6, GM dexos1 Gen 2, Meets Ford WSS-M2C962-A1",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -100,7 +106,8 @@ export const allProducts = [
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/filter_udara.jpg",
     category: ["filteration"],
     description: {
-      intro: "",
+      intro:
+        "Shop Lubricants offers quality air filters to help our customers round out the full service solutions they offer to their quick lube and fleet customers. To provide our customers with the very best air filter products, we’ve chosen to distribute air filters from trusted name brands, including ECOGUARD, Valvoline, and Pennzoil.Your customers will be comfortable purchasing quality products from these highly recognized brands. You will enjoy great add-on sales opportunities from satisfied customers who have come to expect more and better service as part of their buying experience.Fill out a contact form or quote request today to have a Shop Lubricants representative help you with your air filter options.",
       attributesSection: {
         intro: "",
         attributes: [""],
@@ -119,7 +126,8 @@ export const allProducts = [
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/1606236995231.jpeg",
     category: ["filtration"],
     description: {
-      intro: "",
+      intro:
+        "With the increasingly tighter tolerances of modern equipment, bulk filtration is more important than ever. Dirty fuel and lubricants are emerging as leading causes of equipment downtime.  From damage to injectors and pumps to unpredictable filter plugging, contamination in diesel and oil can bring critical machinery to a halt.Bulk Filtration can help maximize equipment availability by putting the cleanest fuels and lubricants into your mission-critical equipment.  Installing a Donaldson Clean Solutions bulk filtration system is the easiest and most cost effective way to do this. Fluids in your storage tank can be thousands of times dirtier than recommended by equipment manufacturers.  Donaldson’s bulk filtration cleans this contamination out of the fluid in a single-pass, minimizing system complexity and size.  These modular systems are available for any fluid or flow rate.  Several filter options are available based on viscosity and cleanliness requirements. Shop Lubricants is the expert in designing, installing and servicing Clean Solutions systems.  We will work with you to make sure you put the cleanest possible fuel and lubes into your equipment and make sure you KEEP RUNNING. Submit a contact form or call us today!",
       attributesSection: {
         intro: "",
         attributes: [""],
@@ -143,7 +151,12 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "42 Percent Better Rating On Fighting Power Robbing Deposits",
+        "Superior Engine Protection Vs Conventional And Synthetic Blend Oils",
+        "Superior Performance Against Deposits, Wear And Oxidation; Bottle Color: Black",
+        "Meets The Needs Of Honda, Toyota, Acura, Lexus And Other Vehicles Where 0W-20 Grade Is Recommended",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -162,7 +175,7 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: ["Package Shape: 6 x 4L cans", "Engine Oil"],
       details: {
         intro: "",
         detail: [""],
@@ -171,7 +184,7 @@ export const allProducts = [
     },
   },
   {
-    name: "castrol Edge 0w20",
+    name: "castrol Edge 0w40",
     image:
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/81OTw5j37L-1536x1536.jpeg",
     category: ["castrol"],
@@ -181,7 +194,12 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "42 Percent Better Rating On Fighting Power Robbing Deposits",
+        "Superior Engine Protection Vs Conventional And Synthetic Blend Oils",
+        "Superior Performance Against Deposits, Wear And Oxidation; Bottle Color: Black",
+        "Meets Mercedes Benz 229.5 And 229.3, Porsche A40, VW 505.00 And 502.00, Ford WSS-M2C937-A, PSA B71 2296",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -195,12 +213,18 @@ export const allProducts = [
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/61FfzY7olWL.jpeg",
     category: ["castrol"],
     description: {
-      intro: "",
+      intro:
+        "Castrol EDGE with SYNTEC Power Technology is an advanced full synthetic motor oil with a unique and proprietary formula that reduces volatility and provides superior protection for critical engine parts, helping your vehicle operate efficiently at power.",
       attributesSection: {
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Superior Performance Against Deposits, Wear And Oxidation",
+        "Product Type: Auto Oil",
+        "Country Of Origin: United States",
+        "Package Weight: 5.557 Kilograms",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -219,7 +243,18 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Excellent Acceleration – Proven to accelerate 2.2 seconds quicker than key competitor",
+        "Enduring Performance – Maintains 95% of power even after a 48000 KM test",
+        "Home installation available on selected products and selected cities",
+        "Suitable for 2-wheelers where API SN (or below) and JASO MA/MA2 is required",
+        "Modelled data based on extensive testing. Tested using a Kawasaki ZX636R engine over a 5.2km acceleration test.",
+        "50% less wear compared to the latest industry specification limit using the Sequence IVA test. All tests are performed in a controlled environment under extreme conditions for testing purposes. Castrol strongly recommends changing the oil as per the frequency recommended by the vehicle manufacturer.",
+        "Zero gear shudder events observed during smoothness evaluations.",
+        "Tested using a Kawasaki 636R engine under extreme conditions to monitor oil temperature.",
+        "All tests are performed in a controlled environment under extreme conditions for testing purposes.",
+        "Smooth Riding – Smooth clutch engagement with zero shudder events",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -238,7 +273,12 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Provides exceptional protection from piston deposits, oil thickening and valve train wear while minimizing engine sludge formulation",
+        "Engineered to provide exceptional performance in engines operating under severe service conditions including towing and hauling under high temperatures",
+        "Special viscosity improvers, anti-wear, anti-oxidant and detergent additives protect and maintain cleanliness in hot running, heavy diesel and heavy duty gasoline engines",
+        "Applicable for on and off road heavy duty 4-stroke trucks, gasoline and diesel light trucks and passenger cars where API CK-4, CJ-4, CI-4, CH-4, CG-4, CF-4, CF, SN are recommended",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -257,7 +297,16 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Advanced premium full synthetic motor oil to offer strength under extreme pressure",
+        "Titanium strong for maximum engine performance",
+        "Reduces metal-to-metal contact across a range of different driving speeds",
+        "Protects the engine for the entire drain interval even under extreme pressure",
+        "Decreases engine deposit formation to help maximize engine response",
+        "Best full synthetic money can buy",
+        "API SN, ILSAC GF-5, ACEA A1/B1, A5/B5, GM dexos1, Meets Ford WSS-M2C929-A, Ford WSS-M2C946-A, Honda HTO-06, Meets engine test requirements of Chrysler MS-6395",
+        "Castrol EDGE is 3X stronger than Mobil 1 against viscosity breakdown* *Tested in the ASTM D6278 test in the 5W-30 viscosity grade.",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -271,12 +320,18 @@ export const allProducts = [
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/0289213_1_700x700.webp",
     category: ["castrol"],
     description: {
-      intro: "",
+      intro:
+        "Castrol EDGE is Castrol’s most advanced engine oil. It is a premium full synthetic oil that is designed for consumers who demand the best performance from their cars. Castrol EDGE is recommended by leading car manufacturers. Castrol EDGE is engineered with fluid titanium technology that physically changes the way the oil behaves under pressure. As a result of increased demand for performance and fuel economy, pressures in today’s engines have almost doubled over the last three decades. Greater pressure means more stress for the oil and the potential for more friction. As metal to metal contact increases, it causes wear and reduces performance. Underneath the hood, the pressure can reach 10 tons per square centimeter. That’s like five cars resting on a high heel relying only on a micro thin layer of oil for protection. So you need a strong oil to reduce friction, and to help increase horsepower and fuel economy. To combat the increased pressures faced in today’s engines, Castrol EDGE is engineered with fluid titanium technology that physically changes the way the oil behaves under pressure. Castrol’s patented titanium technology provides documented performance in friction reduction, anti-wear and deposit control protection. The titanium-based technology ensures performance and strength.",
       attributesSection: {
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Package Dimensions: 24.13 H x 20.32 L x 24.13 W (centimetres)",
+        "Exceptional protection for classic cars",
+        "Country of Origin: United States",
+        "Package Weight: 5.534 kilograms",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -295,7 +350,11 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "VW 508 & 509 specification",
+        "Latest VW specification",
+        "Fully synthetic high performance engine oil",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -314,7 +373,7 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: ["Castrol radicool premix – 1 l bottle"],
       details: {
         intro: "",
         detail: [""],
@@ -333,7 +392,14 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Superior wear protection on critical engine parts",
+        "6X better wear protection than industry standards**",
+        "Superior sludge cleaning and protection against new formation",
+        "1.3X better sludge protection than industry standards*",
+        "Full synthetic formula provides thermal and oxidation stability",
+        "Superior level of protection against viscosity breakdown",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -352,7 +418,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Castrol GTX Full Synthetic Motor Oil provides maximum protection to help fight the impact of severe conditions that can potentially shorten engine life",
+        "Castrol GTX Full Synthetic has been proven to dramatically reduce engine wear – 6X better than the industry standard",
+        "1.3X better sludge protection than industry standards",
+        "Full synthetic formula provides thermal and oxidation stability with a superior level of protection against viscosity breakdown",
+        "Specifications: API SP/SN PLUS/SN, ILSAC GF-6, GM dexos1 Gen 2",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -371,7 +443,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "ATTENTION: Castrol GTX Magnatec will be transitioning to a brand NEW Castrol product, GTX Full Synthetic, on January 1st 2022.",
+        "Dramatically reduce engine wear",
+        "Leave critical engine parts 4X smoother. As tested in the industry Sequence IVA wear test",
+        "Superior wear protection on critical engine parts",
+        "For best performance, follow the manufacturer’s recommendations in your vehicle owner’s manual.",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -1283,20 +1361,22 @@ export const allProducts = [
     flashPoints: "",
     size: "1 Quart (Pack of 1)",
     liquidVolume: "32 Fluid Ounces",
-    description: "A fully synthetic motor oil formulated to provide exceptional wear protection in hot or cold operating temperatures. Provides protection for extended oil drains, heavy loads and for vehicles requiring a synthetic motor oil.",
+    description:
+      "A fully synthetic motor oil formulated to provide exceptional wear protection in hot or cold operating temperatures. Provides protection for extended oil drains, heavy loads and for vehicles requiring a synthetic motor oil.",
     features: [
       "Havoline Synthetic Motor Oils with Deposit Shield deliver value through:",
       "Easy cold weather starting due to excellent low temperature properties of the synthetic base oils",
       "Minimizes engine deposit and emissions under heavy duty and stop-and-go driving",
-    ]
-      },
+    ],
+  },
   {
     name: "223721482-6PK 5W-20 Synthetic Motor Oil - 1 qt. (Pack of 6) (223502482)",
     image: "https://m.media-amazon.com/images/I/81OSQtgIsrL._AC_SY355_.jpg",
     category: ["havoline"],
     vehicle: ["car"],
     flashPoints: "",
-    description: "A fully synthetic motor oil formulated to provide exceptional wear protection in hot or cold operating temperatures. Provides protection for extended oil drains, heavy loads and for vehicles requiring a synthetic motor oil.",
+    description:
+      "A fully synthetic motor oil formulated to provide exceptional wear protection in hot or cold operating temperatures. Provides protection for extended oil drains, heavy loads and for vehicles requiring a synthetic motor oil.",
     size: "1 Quart (Pack of 6)",
     liquidVolume: "32 Fluid Ounces",
     features: [
@@ -1306,74 +1386,84 @@ export const allProducts = [
       "Minimizes engine deposit and emissions under heavy duty and stop-and-go driving",
       "Havoline Synthetic Motor Oils with Deposit Shield deliver value through:",
       "Easy cold weather starting due to excellent low temperature properties of the synthetic base oils",
-      "Minimizes engine deposit and emissions under heavy duty and stop-and-go driving"
-    ]
-      },
+      "Minimizes engine deposit and emissions under heavy duty and stop-and-go driving",
+    ],
+  },
   {
     name: "5W20 High Mileage Synthetic Blend, 1 Quart, 1 Pack (223680720)",
     image: "https://m.media-amazon.com/images/I/81qKSPc13sL._AC_SY550_.jpg",
     category: ["havoline"],
     vehicle: [""],
     flashPoints: "",
-    description: "Havoline High Mileage Motor Oils with Deposit Shield are specifically formulated for the needs of higher mileage engines. Over the life of your engine its performance changes, gaskets are compromised, seals deteriorate, and oil consumption can increase.",
+    description:
+      "Havoline High Mileage Motor Oils with Deposit Shield are specifically formulated for the needs of higher mileage engines. Over the life of your engine its performance changes, gaskets are compromised, seals deteriorate, and oil consumption can increase.",
     size: "1 Quart (Pack of 1)",
     liquidVolume: "32 Fluid Ounces",
     features: [
       "Havoline High Mileage Motor Oils with Deposit Shield deliver value through:",
       "Helping to prevent oil consumption",
       "Exceptional wear protection",
-    ]
-      },
+    ],
+  },
   {
     name: "10W30 High Mileage Synthetic Blend, 1 Quart (Pack of 6)",
     image: "https://m.media-amazon.com/images/I/91IEeCCC5YL._AC_SX355_.jpg",
     category: ["havoline"],
     vehicle: [""],
     flashPoints: "",
-    description: "Havoline High Mileage Motor Oils with Deposit Shield are specifically formulated for the needs of higher mileage engines. Over the life of your engine its performance changes, gaskets are compromised, seals deteriorate, and oil consumption can increase.",
+    description:
+      "Havoline High Mileage Motor Oils with Deposit Shield are specifically formulated for the needs of higher mileage engines. Over the life of your engine its performance changes, gaskets are compromised, seals deteriorate, and oil consumption can increase.",
     size: "1 Quart (Pack of 6)",
     liquidVolume: "32 Fluid Ounces",
     features: [
       "Havoline High Mileage Motor Oils with Deposit Shield deliver value through:",
       "Helping to prevent oil consumption",
       "Exceptional wear protection for the longevity of your motor",
-      "Formulated with seal conditioning agents and extra cleaning and anti-wear additives compared to conventional oil, to help extend the life of engines, particularly in severe driving conditions."
-    ]
-      },
+      "Formulated with seal conditioning agents and extra cleaning and anti-wear additives compared to conventional oil, to help extend the life of engines, particularly in severe driving conditions.",
+    ],
+  },
   {
     name: "10W30 High Mileage Synthetic Blend, 5 Quarts (Pack of 3) ",
     image: "https://m.media-amazon.com/images/I/81sKZCOFWlL._AC_SY355_.jpg",
     category: ["havoline"],
     vehicle: [""],
     flashPoints: "",
-    description: "Havoline High Mileage Motor Oils with Deposit Shield are specifically formulated for the needs of higher mileage engines. Over the life of your engine its performance changes, gaskets are compromised, seals deteriorate, and oil consumption can increase.",
+    description:
+      "Havoline High Mileage Motor Oils with Deposit Shield are specifically formulated for the needs of higher mileage engines. Over the life of your engine its performance changes, gaskets are compromised, seals deteriorate, and oil consumption can increase.",
     size: "5 Quart (Pack of 3)",
     liquidVolume: "160 Fluid Ounces",
-    features: ["Havoline High Mileage Motor Oils with Deposit Shield deliver value through:","Helping to prevent oil consumption","Exceptional wear protection"],
+    features: [
+      "Havoline High Mileage Motor Oils with Deposit Shield deliver value through:",
+      "Helping to prevent oil consumption",
+      "Exceptional wear protection",
+    ],
   },
   {
     name: "Royal Purple 01030 SAE 30 Heavy Duty High Performance Synthetic Motor Oil - 1 Quart Bottle",
-    image: "https://m.media-amazon.com/images/I/71iw0ciXMzL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/71iw0ciXMzL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     category: ["royal purple"],
     vehicle: ["car"],
     flashPoints: "",
-    description: "Motor oil is made from crude oil and is used to lubricate, clean, and cool engines. Types of motor oil include conventional, synthetic, diesel, bio-based, hybrid (blends of conventional and synthetic), and recycled oils. Motor oil varies in weight and viscosity, as well as additives that some manufacturers add to the oil during the refining process. A numerical code system created by the Society of Automotive Engineers (SAE) grades motor oils according to viscosity, the higher the number between 0 and 60, the more viscous (thicker) the oil is. Most consumer motor oils are graded by two numbers, with the first number indicating cold weather (Winter or 'W') performance. This oil has a weight of SAE 40, meaning it has a single SAE viscosity rating of 40 at normal operating temperature. Always check your vehicle's owner's manual to verify that this is the correct weight of motor oil for your vehicle. This oil is fully synthetic, meaning crude oil is not used in making it. Synthetic oil can be used in vehicle engines instead of motor oils refined from crude oil, and often provides superior mechanical performance over traditional motor oil, including increased gas mileage and reduced engine wear at extreme temperatures. Its complex method of production means it can often cost more than conventional motor oil. Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple recommends waiting until the manufacturer's first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple's API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple's API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements.",
+    description:
+      "Motor oil is made from crude oil and is used to lubricate, clean, and cool engines. Types of motor oil include conventional, synthetic, diesel, bio-based, hybrid (blends of conventional and synthetic), and recycled oils. Motor oil varies in weight and viscosity, as well as additives that some manufacturers add to the oil during the refining process. A numerical code system created by the Society of Automotive Engineers (SAE) grades motor oils according to viscosity, the higher the number between 0 and 60, the more viscous (thicker) the oil is. Most consumer motor oils are graded by two numbers, with the first number indicating cold weather (Winter or 'W') performance. This oil has a weight of SAE 40, meaning it has a single SAE viscosity rating of 40 at normal operating temperature. Always check your vehicle's owner's manual to verify that this is the correct weight of motor oil for your vehicle. This oil is fully synthetic, meaning crude oil is not used in making it. Synthetic oil can be used in vehicle engines instead of motor oils refined from crude oil, and often provides superior mechanical performance over traditional motor oil, including increased gas mileage and reduced engine wear at extreme temperatures. Its complex method of production means it can often cost more than conventional motor oil. Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple recommends waiting until the manufacturer's first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple's API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple's API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements.",
     size: "1 Quarts (32 Ounces)",
     liquidVolume: "1 Quarts",
     features: [
       "AFFORDABLE SOLUTION",
       "Better wear protection",
       "Increased fuel efficiency",
-      "Superior corrosion protection"
-    ]
-      },
+      "Superior corrosion protection",
+    ],
+  },
   {
     name: "Royal Purple 12030 Heavy Duty SAE 30 High Performance Synthetic Motor Oil -12 Quart",
     image: "https://m.media-amazon.com/images/I/61gwK7MCB-L._AC_SY679_.jpg",
     category: ["royal purple"],
     vehicle: [""],
     flashPoints: "",
-    description: "Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple motor oil is fully compatible with mineral or other synthetic oils. Royal Purple recommends waiting until the manufacturer’s first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple’s API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple’s API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements.",
+    description:
+      "Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple motor oil is fully compatible with mineral or other synthetic oils. Royal Purple recommends waiting until the manufacturer’s first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple’s API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple’s API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements.",
     size: "12 Quart",
     liquidVolume: "32 Fluid Ounces",
     features: [
@@ -1381,16 +1471,18 @@ export const allProducts = [
       "Increased fuel efficiency",
       "Better protection of the expensive catalytic emission system",
       "Improved compatibility with fuels containing ethanol",
-      "Superior corrosion protection"
-    ]
-      },
+      "Superior corrosion protection",
+    ],
+  },
   {
     name: "Royal Purple ROY51020 API-Licensed SAE 0W-20 High Performance Synthetic Motor Oil - 5 qt.",
-    image: "https://m.media-amazon.com/images/I/811wOSCf3cL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/811wOSCf3cL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     category: ["royal purple"],
     vehicle: ["truck"],
     flashPoints: "",
-    description: "Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple motor oil is fully compatible with mineral or other synthetic oils. Royal Purple recommends waiting until the manufacturer’s first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple’s API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple’s API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements.",
+    description:
+      "Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple motor oil is fully compatible with mineral or other synthetic oils. Royal Purple recommends waiting until the manufacturer’s first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple’s API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple’s API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements.",
     size: "5 Quart (160 Ounces)",
     liquidVolume: "5 Quarts",
     features: [
@@ -1399,16 +1491,17 @@ export const allProducts = [
       "Better protection of the expensive catalytic emission system",
       "Improved compatibility with fuels containing ethanol",
       "Superior corrosion protection",
-      "Fit Type: Vehicle Specific"
-    ]
-      },
+      "Fit Type: Vehicle Specific",
+    ],
+  },
   {
     name: "Royal Purple 05020 API-Licensed SAE 0W-20 High Performance Synthetic Motor Oil -, 5 Gallon (640 Ounces)",
     image: "https://m.media-amazon.com/images/I/71l7+xnx0QL._AC_SY355_.jpg",
     category: ["royal purple"],
     vehicle: ["automotive"],
     flashPoints: "",
-    description: "Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple motor oil is fully compatible with mineral or other synthetic oils. Royal Purple recommends waiting until the manufacturer’s first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple’s API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple’s API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements",
+    description:
+      "Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple motor oil is fully compatible with mineral or other synthetic oils. Royal Purple recommends waiting until the manufacturer’s first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple’s API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple’s API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements",
     size: "5 gallon (640 Ounces)",
     liquidVolume: "640 Fluid Ounces",
     features: [
@@ -1417,14 +1510,17 @@ export const allProducts = [
       "Better protection of the expensive catalytic emission system",
       "Improved compatibility with fuels containing ethanol",
       "Superior corrosion protection",
-    ]  },
+    ],
+  },
   {
     name: "Royal Purple 05154 API-Licensed SAE 15W-40 High Performance Synthetic Motor Oil - 5 Gallon",
-    image: "https://m.media-amazon.com/images/I/61AnYHGTJhL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/61AnYHGTJhL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     category: ["royal purple"],
     vehicle: ["Truck"],
     flashPoints: "",
-    description: "Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple motor oil is fully compatible with mineral or other synthetic oils. Royal Purple recommends waiting until the manufacturer’s first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple’s API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple’s API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements",
+    description:
+      "Royal Purple Motor Oil Combines premium base oils with proprietary additive technologies to create high performance motor oils that optimize engine performance and provide superior protection. No special procedures are necessary when upgrading to Royal Purple. Royal Purple motor oil is fully compatible with mineral or other synthetic oils. Royal Purple recommends waiting until the manufacturer’s first scheduled oil change in new gasoline engines before upgrading to Royal Purple. Royal Purple’s API licensed motor oil delivers superior protection and improves performance in gasoline and diesel engines. Royal Purple’s API SN licensed motor oil meets ILSAC GF-5 and Dexos1 1 performance requirements",
     size: "5 Gallon (640 Ounces)",
     liquidVolume: "5 Gallons",
     features: [
@@ -1433,14 +1529,16 @@ export const allProducts = [
       "Better protection of the expensive catalytic emission system",
       "Improved compatibility with fuels containing ethanol",
       "Superior corrosion protection",
-    ]   },
+    ],
+  },
   {
     name: "Servo Technic Plus 5W-30 Engine Oil for Diesel and Petrol Cars (4.6 L)",
     image: "https://m.media-amazon.com/images/I/910LLemxd8L._SY550_.jpg",
     category: ["servo futura"],
     vehicle: ["car"],
     flashPoints: "",
-    description: "Servo brand, from Indian Oil, is the brand leader among lubricants and greases in India and has been conferred the “Consumer Super brand” status by the Super brands Council of India. Recognised for its brand leadership by the World Brand Congress and as a Master Brand by CMO, Asia, SERVO has now carved a significant niche in over 20 countries across the globe.",
+    description:
+      "Servo brand, from Indian Oil, is the brand leader among lubricants and greases in India and has been conferred the “Consumer Super brand” status by the Super brands Council of India. Recognised for its brand leadership by the World Brand Congress and as a Master Brand by CMO, Asia, SERVO has now carved a significant niche in over 20 countries across the globe.",
     size: "4000 Millilitres",
     liquidVolume: "4000 Millilitres",
     features: [
@@ -1449,9 +1547,9 @@ export const allProducts = [
       "Excellent wear protection at high temperatures and severe operating conditions",
       "Outstanding overall engine cleanliness",
       "Very good thermal resistance and stability",
-      "Friction control capability"
-    ]
-      },
+      "Friction control capability",
+    ],
+  },
   {
     name: "SERVO MGO 3 LTR",
     image: "https://m.media-amazon.com/images/I/61dPKhigbxL._SY741_.jpg",
@@ -1469,18 +1567,25 @@ export const allProducts = [
     category: ["servo futura"],
     vehicle: ["car"],
     flashPoints: "",
-    description: "Best Synthetic Engine Oil for both petrol and diesel engine cars",
+    description:
+      "Best Synthetic Engine Oil for both petrol and diesel engine cars",
     size: "3500 Millilitres",
     liquidVolume: "3500 Millilitres",
-    features: ["Best Engine Oil for both Petrol and Diesel cars","Synthetic Engine Oil","For Petrol and Diesel Car"],
+    features: [
+      "Best Engine Oil for both Petrol and Diesel cars",
+      "Synthetic Engine Oil",
+      "For Petrol and Diesel Car",
+    ],
   },
   {
     name: "Servo Scootomatic 10W-30 API SL Petrol Engine Oil for Gearless Scooters (800 ml)",
-    image: "https://m.media-amazon.com/images/I/41A4D9ZdXNL._SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/41A4D9ZdXNL._SX300_SY300_QL70_FMwebp_.jpg",
     category: ["servo futura"],
     vehicle: ["scooter"],
     flashPoints: "",
-    description: "Servo scootomatic 4ST is high performance engine oil specially formulated for 4 stroke gearless scooters. Fortified with friction modifiers. Meets SAE 10W-30, API SL and JASO MB specifications. Superior and smoother engine performance. Minimized engine wear and tear during starting. Better pick-up and longer engine life. Not to be used in motorcycle engines.",
+    description:
+      "Servo scootomatic 4ST is high performance engine oil specially formulated for 4 stroke gearless scooters. Fortified with friction modifiers. Meets SAE 10W-30, API SL and JASO MB specifications. Superior and smoother engine performance. Minimized engine wear and tear during starting. Better pick-up and longer engine life. Not to be used in motorcycle engines.",
     size: "800 Millilitres",
     liquidVolume: "800 Millilitres",
     features: [
@@ -1488,16 +1593,18 @@ export const allProducts = [
       "Meets SAE 10W-30 API-SL and JASO MB specifications",
       "Minimized engine wear and tear during starting",
       "Better pick-up and longer engine life",
-      "Attractive pricing"
-    ]
-      },
+      "Attractive pricing",
+    ],
+  },
   {
     name: "Servo Pride XL Plus 15W-40 API CI4+ Engine Oil for Diesel Cars (7.5 L)",
-    image: "https://m.media-amazon.com/images/I/51zcdOVji1L._SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/51zcdOVji1L._SX300_SY300_QL70_FMwebp_.jpg",
     category: ["servo futura"],
     vehicle: ["car"],
     flashPoints: "",
-    description: "Servo brand, from Indian Oil, is the brand leader among lubricants and greases in India and has been conferred the “Consumer Super brand” status by the Super brands Council of India. Recognised for its brand leadership by the World Brand Congress and as a Master Brand by CMO, Asia, SERVO has now carved a significant niche in over 20 countries across the globe.",
+    description:
+      "Servo brand, from Indian Oil, is the brand leader among lubricants and greases in India and has been conferred the “Consumer Super brand” status by the Super brands Council of India. Recognised for its brand leadership by the World Brand Congress and as a Master Brand by CMO, Asia, SERVO has now carved a significant niche in over 20 countries across the globe.",
     size: "7.5L",
     liquidVolume: "7.5L",
     features: [
@@ -1506,16 +1613,17 @@ export const allProducts = [
       "High engine cleanliness",
       "Effective cam/tappet and valve train wear protection",
       "Has the potential of long drain interval",
-      "Attractive pricing"
-    ]
-      },
+      "Attractive pricing",
+    ],
+  },
   {
     name: "GULF MULTI FLEET 5W-30 - [3 L] API SN/CF Car Engine Oil with Synthetic Technology using Anti-Wear Technology for Reduced Maintenance Cost",
     image: "https://m.media-amazon.com/images/I/81DzabB8TwL._SX425_.jpg",
     category: ["gulf pride"],
     vehicle: ["car"],
     flashPoints: "",
-    description: "Special Anti-Wear technology Reduced Maintenance Costs High Temperature protection Recommended for entry level cars, sedans and hatchbacks with Petrol/Diesel/LPG/CNG engines like Maruti Alto, Omni, Hyundai Santro etc. Minimization of Deposits and sludge build-up Prevents component Wear",
+    description:
+      "Special Anti-Wear technology Reduced Maintenance Costs High Temperature protection Recommended for entry level cars, sedans and hatchbacks with Petrol/Diesel/LPG/CNG engines like Maruti Alto, Omni, Hyundai Santro etc. Minimization of Deposits and sludge build-up Prevents component Wear",
     size: "3 Litres",
     liquidVolume: "3 Litres",
     features: [
@@ -1523,12 +1631,13 @@ export const allProducts = [
       "Special Anti-Wear technology",
       "Reduced Maintenance Costs",
       "High Temperature protection",
-      "Recommended for entry level cars, sedans and hatchbacks with Petrol/Diesel/LPG/CNG engines like Maruti Alto, Omni, Hyundai Santro etc."
-    ]
-      },
+      "Recommended for entry level cars, sedans and hatchbacks with Petrol/Diesel/LPG/CNG engines like Maruti Alto, Omni, Hyundai Santro etc.",
+    ],
+  },
   {
     name: "GULF POWERTRAC 4T SAE 10W-30 - Synthetic Engine Oil for Motorcyles [1 L] - Pack of 1",
-    image: "https://m.media-amazon.com/images/I/414t4qcJQeL._SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/414t4qcJQeL._SX300_SY300_QL70_FMwebp_.jpg",
     category: ["gulf pride"],
     vehicle: ["off-road motorcycle"],
     flashPoints: "82 Degrees Celsius",
@@ -1540,12 +1649,13 @@ export const allProducts = [
       "Exceptional antiwear properties protect vital engine and gear components leading to reduced maintenance costs",
       "Controlled frictional properties eliminate clutch slippage leading to increased power/fuel economy and improves drivability",
       "These oils meet the requirements of leading global 4-stroke motorcycle manufacturers",
-      "Meets API SL and JASO MA2 Specifications"
-    ]
-      },
+      "Meets API SL and JASO MA2 Specifications",
+    ],
+  },
   {
     name: "GULF ULTRASYNTH X SAE 5W-30 - Fully synthetic passenger car engine oil [3 L] - Pack of 1",
-    image: "https://m.media-amazon.com/images/I/41sy0tnn7FL._SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/41sy0tnn7FL._SX300_SY300_QL70_FMwebp_.jpg",
     category: ["gulf pride"],
     vehicle: ["ATV", "Car"],
     flashPoints: "82 Degrees Celsius",
@@ -1556,86 +1666,154 @@ export const allProducts = [
       "Fully synthetic car engine oil for premium hatchbacks, and mid-size & executive sedans",
       "Specially developed for modern petrol, diesel, CNG & LPG engines",
       "Special engine detoxifiers protect the engine from harmful carbon deposits in all conditions",
-      "API SN/CF"
-    ]
-      },
+      "API SN/CF",
+    ],
+  },
   {
     name: "GULF MAX TD 15W-40 - [4 L] API CI-4/SL and ACEA A3/B4 Car Engine Oil which provides Maximum Power and Superior Engine Protection",
     image: "https://m.media-amazon.com/images/I/81-50naHyOL._SY450_.jpg",
     category: ["gulf pride"],
     vehicle: ["car"],
     flashPoints: "",
-    description: "Combination of powerful anti-oxidants and cleaning agents with high quality base oils Can withstand high operating temperatures Controls harmful deposit formation on engine parts Helps engine provide maximum power",
+    description:
+      "Combination of powerful anti-oxidants and cleaning agents with high quality base oils Can withstand high operating temperatures Controls harmful deposit formation on engine parts Helps engine provide maximum power",
     size: "4 Litres",
     liquidVolume: "4 Litres",
-    features: ["ENGINE OIL THAT GIVES MAXIMUM POWER AND SUPERIOR PROTECTION FOR SUVS, MUVS & CROSSOVERS"],
+    features: [
+      "ENGINE OIL THAT GIVES MAXIMUM POWER AND SUPERIOR PROTECTION FOR SUVS, MUVS & CROSSOVERS",
+    ],
   },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   vehicle: [""],
-  //   flashPoints: "",
-  //   description: "",
-  //   size: "",
-  //   liquidVolume: "",
-  //   features: [""],
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   vehicle: [""],
-  //   flashPoints: "",
-  //   description: "",
-  //   size: "",
-  //   liquidVolume: "",
-  //   features: [""],
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   vehicle: [""],
-  //   flashPoints: "",
-  //   description: "",
-  //   size: "",
-  //   liquidVolume: "",
-  //   features: [""],
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   vehicle: [""],
-  //   flashPoints: "",
-  //   description: "",
-  //   size: "",
-  //   liquidVolume: "",
-  //   features: [""],
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   vehicle: [""],
-  //   flashPoints: "",
-  //   description: "",
-  //   size: "",
-  //   liquidVolume: "",
-  //   features: [""],
-  // },
-  // {
-  //   name: "",
-  //   image: "",
-  //   category: [""],
-  //   vehicle: [""],
-  //   flashPoints: "",
-  //   description: "",
-  //   size: "",
-  //   liquidVolume: "",
-  //   features: [""],
-  // },
+  {
+    name: "Pennzoil High Mileage 5W-30 Gasoline Engine Oil, 5 Quart",
+    image: "https://m.media-amazon.com/images/I/71QCVmicA6L._AC_SY355_.jpg",
+    category: ["pennzoil"],
+    vehicle: ["car", "UTV", "truck"],
+    flashPoints: "",
+    description:
+      "Pennzoil High Mileage 5W-30 Synthetic Blend Motor Oil is designed for engines with more than 75,000 miles, specially formulated to help stop leaks from seals and reduce the oil consumption that is typical of older, worn engines. Severe oil consumption and oil burn-off may also cause other issues, leaving deposits on the internal parts of your engine. Pennzoil High Mileage Motor Oil also helps prevent dirt and sludge from turning into performance-robbing deposits. Pennzoil High Mileage motor oil comes with a warranty coverage of up to 10 years or 300,000 miles*, whichever comes first. (*Pennzoil Motor Oil Lubrication Limited Warranty: Up to 10 years or 300,000 miles, whichever comes first, if you exclusively use Pennzoil motor oil, Pennzoil Professional motor oil, Pennzoil Gold Synthetic Blend motor oil, Pennzoil High Mileage motor oil, Pennzoil High Mileage Full Synthetic motor oil, or Pennzoil Full Synthetic motor oil. Your engine must have fewer than 125,000 miles and have been manufactured in the past 72 months. To maintain your warranty, change your vehicle’s oil and oil filter at least as often as recommended by the vehicle manufacturer. Enrollment required. Keep your receipts. Other conditions apply. See pennzoil.com/warranty to enroll and for full details and terms.)",
+    size: " 5 Quart",
+    liquidVolume: "160 Fluid Ounces",
+    features: [
+      "High Mileage 5W-30 synthetic blend engine oil specially formulated to help stop leaks and reduce oil consumption in worn engines",
+      "Recommended for vehicles with more than 75,000 miles",
+      "Helps prevent sludge and other damaging deposits",
+      "Proven wear protection for engine parts",
+      "Suitable for modern turbocharged engines where low-speed pre-ignition protection is required",
+      "Limited warranty coverage of up to 10 years or 300,000 miles (whichever comes first)",
+      "Meets or exceeds the following industry requirements: API SP-Resource Conserving and all previous categories; ILSAC GF-6A",
+      "Meets or exceeds the following OEM specifications: Chrysler MS-6395; Ford WSS-M2C961-B1 and WSS-M2C961-A",
+      "For a full list of equipment approvals and recommendations, please consult your local Shell Technical Help Desk and always consult your owner’s manual",
+    ],
+  },
+  {
+    name: "Pennzoil High Mileage 5W-30 Gasoline Engine Oil, 1 Quart",
+    image: "https://m.media-amazon.com/images/I/71NxnDT+gtL._AC_SY355_.jpg",
+    category: ["pennzoil"],
+    vehicle: ["car", "UTV", "truck"],
+    flashPoints: "",
+    description:
+      "Pennzoil High Mileage 5W-30 Synthetic Blend Motor Oil is designed for engines with more than 75,000 miles, specially formulated to help stop leaks from seals and reduce the oil consumption that is typical of older, worn engines. Severe oil consumption and oil burn-off may also cause other issues, leaving deposits on the internal parts of your engine. Pennzoil High Mileage Motor Oil also helps prevent dirt and sludge from turning into performance-robbing deposits. Pennzoil High Mileage motor oil comes with a warranty coverage of up to 10 years or 300,000 miles*, whichever comes first. (*Pennzoil Motor Oil Lubrication Limited Warranty: Up to 10 years or 300,000 miles, whichever comes first, if you exclusively use Pennzoil motor oil, Pennzoil Professional motor oil, Pennzoil Gold Synthetic Blend motor oil, Pennzoil High Mileage motor oil, Pennzoil High Mileage Full Synthetic motor oil, or Pennzoil Full Synthetic motor oil. Your engine must have fewer than 125,000 miles and have been manufactured in the past 72 months. To maintain your warranty, change your vehicle’s oil and oil filter at least as often as recommended by the vehicle manufacturer. Enrollment required. Keep your receipts. Other conditions apply. See pennzoil.com/warranty to enroll and for full details and terms.)",
+    size: "1 Quart",
+    liquidVolume: "32 Fluid Ounces",
+    features: [
+      "High Mileage 5W-30 synthetic blend engine oil specially formulated to help stop leaks and reduce oil consumption in worn engines",
+      "Recommended for vehicles with more than 75,000 miles",
+      "Helps prevent sludge and other damaging deposits",
+      "Proven wear protection for engine parts",
+      "Suitable for modern turbocharged engines where low-speed pre-ignition protection is required",
+      "Limited warranty coverage of up to 10 years or 300,000 miles (whichever comes first)",
+      "Meets or exceeds the following industry requirements: API SP-Resource Conserving and all previous categories; ILSAC GF-6A",
+      "Meets or exceeds the following OEM specifications: Chrysler MS-6395; Ford WSS-M2C961-B1 and WSS-M2C961-A",
+      "For a full list of equipment approvals and recommendations, please consult your local Shell Technical Help Desk and always consult your owner’s manual",
+    ],
+  },
+  {
+    name: "Pennzoil High Mileage Conventional 10W-40 Motor Oil for Vehicles Over 75K Miles (1-Quart, Case of 6)",
+    image: "https://m.media-amazon.com/images/I/71uBblVXufL._AC_SY355_.jpg",
+    category: ["pennzoil"],
+    vehicle: ["car", "UTV", "truck"],
+    flashPoints: "",
+    description:
+      "Pennzoil High Mileage SAE 10W-40 Motor Oil is engineered for cars that have accumulated more than 75,000 miles and provides proven wear protection. As your car ages, leaks may develop and cause higher oil consumption and burn off which is why your engine might be needing frequent top-offs. Severe oil consumption and oil burn off may also cause other issues, leaving deposits on the internal parts of your engine. Pennzoil High Mileage motor oil is enhanced with an outstanding combination of special conditioning seal agents and additives to help stop leaks from aging seals, reduce the oil consumption that is typical of older and worn engines, and helps prevent sludge and other damaging deposits. Pennzoil High Mileage motor oil comes with free warranty coverage of up to 10 years or 300,000 miles* (whichever comes first). It meets or exceeds the requirements of the following industry specifications: API SN and all previous categories. For a full list of equipment approvals and recommendations, please consult your local Shell Technical Help Desk and always consult your owner’s manual. (*Pennzoil Lubrication Limited Warranty: Up to 10 years or 300,000 miles, whichever comes first, if you exclusively use Pennzoil motor oil, Pennzoil Professional motor oil, Pennzoil Gold Synthetic Blend motor oil, Pennzoil High Mileage motor oil, or Pennzoil Full Synthetic motor oil. Your engine must have less than 125,000 miles and have been manufactured in the past 72 months. To maintain your warranty, change your vehicle’s oil and oil filter at least as often as recommended by the vehicle manufacturer. Enrollment required. Keep your receipts. Other conditions apply. See Pennzoil.com/warranty for full details and terms.)",
+    size: "1 Quart",
+    liquidVolume: "32 Fluid Ounces",
+    features: [
+      "Conventional High Mileage 10W-40 engine oil specially formulated to help stop leaks and reduce oil consumption in worn engines",
+      "Recommended for vehicles with over 75,000 miles",
+      "Helps prevent sludge and other damaging deposits",
+      "Provides proven wear protection for engine parts",
+      "Exceeds the requirements of the following industry specifications: API SN and all previous categories",
+    ],
+  },
+  {
+    name: "Pennzoil Ultra Platinum Full Synthetic 10W-30 Motor Oil (1-Quart, Case of 6)",
+    image:
+      "https://m.media-amazon.com/images/I/71OQdpGCoiL._AC_SX466_PIbundle-6,TopRight,0,0_SH20_.jpg",
+    category: ["pennzoil"],
+    vehicle: ["car", "truck"],
+    flashPoints: "",
+    description:
+      "Pennzoil Ultra Platinum Full Synthetic 10W-30 motor oil is designed to provide unbeatable engine protection* and enhanced fuel economy. It’s a fact that no other leading full synthetic motor oil provides better wear protection than Pennzoil Ultra Platinum, with warranty coverage of up to 20 years or 750,000 miles, whichever comes first**.Made with natural gas and race-trusted with the most advanced formulation for high-performance engines, Pennzoil Ultra Platinum far exceeds the most stringent car manufacturer requirements for cleanliness and protection (based on ILSAC GF-6). It is suitable for all gasoline and turbocharged engines in cars, SUVs, light vans, and trucks under all driving conditions. (*Based on Sequence IVA wear test; Sequence IIIH oxidation and deposit test; and the Sequence VH sludge test. **Pennzoil Ultra Platinum Lubrication Limited Warranty: Up to 20 years or 750,000 miles, whichever comes first, guaranteed, if you exclusively use Pennzoil Ultra Platinum Full Synthetic motor oil. Your engine must have fewer than 125,000 miles and have been manufactured in the past 72 months. To maintain your warranty, change your vehicle’s oil and oil filter at least as often as recommended by the vehicle manufacturer. Enrollment required. Keep your receipts. Other conditions apply — see pennzoil.com/warranty to enroll and for full details and terms.)",
+    size: "1 Quart",
+    liquidVolume: "32 Fluid Ounces",
+    features: [
+      "Full synthetic 10W-30 engine oil with PurePlus Technology that is race-trusted for unbeatable engine protection",
+      "Pennzoil Ultra Platinum helps extend engine life and protects for up to 20 years or 750,000 miles, whichever comes first (see warranty information in Product Description)",
+      "No other leading motor oil provides better wear protection from friction (based on Sequence IVA wear test using SAE 5W-30)",
+      "Helps protect engines from loss of power and provides better fuel economy (based on the latest industry standard)",
+      "Keeps pistons dramatically cleaner than required by the toughest industry standards (based on ILSAC GF-6 and Sequence IIIH piston deposit test using SAE 5W-30)",
+      "Delivers unsurpassed sludge protection to help keep high-performance and luxury car engines as close as possible to factory clean (based on Sequence VH Sludge Test using SAE 5W-20)",
+      "Formulated to provide faster low-temperature oil flow and protection in extreme heat",
+      "Meets or exceeds the following OEM requirements: Chrysler MS-6395",
+      "Exceeds the requirements of the following industry specifications: API SP-RC and all previous categories; ILSAC GF-6A",
+      "For a full list of equipment approvals and recommendations, please consult your local Shell Technical Help Desk and always consult your owner’s manual",
+    ],
+  },
+  {
+    name: "Pennzoil Ultra Platinum Full Synthetic 5W-30 Gasoline Engine Oil, 5 Quart",
+    image: "https://m.media-amazon.com/images/I/71KgQQn2BtL._AC_SY355_.jpg",
+    category: ["pennzoil"],
+    vehicle: ["car"],
+    flashPoints: "",
+    description:
+      "Pennzoil Ultra Platinum Full Synthetic 5W-30 motor oil is our most advanced formulation with unbeatable wear and sludge protection, as well as unbeatable cleanliness. When it comes to torturous driving conditions, trust the unbeatable engine protection* of Pennzoil Ultra Platinum. It far exceeds the most stringent car manufacturer requirements for cleanliness and protection (based on ILSAC GF-6); it offers outstanding performance in extreme temperatures and better fuel economy (based on the latest industry standard) Pennzoil Ultra Platinum helps extend the life of your engine and protects for up to 20 years or 750,000 miles, whichever comes first**, to give you peace of mind to drive every mile as hard as you can, from your daily commute to sand dunes and mountain terrain (*Based on Sequence IVA wear test; Sequence IIIH oxidation and deposit test; and the Sequence VH sludge test. **Pennzoil Ultra Platinum Lubrication Limited Warranty: Up to 20 years or 750,000 miles, whichever comes first, if you exclusively use Pennzoil Ultra Platinum Full Synthetic motor oil. Your engine must have fewer than 125,000 miles and have been manufactured in the past 72 months. To maintain your warranty, change your vehicle’s oil and oil filter at least as often as recommended by the vehicle manufacturer. Enrollment required. Keep your receipts. Other conditions apply. See pennzoil.com/warranty to enroll and for full details and terms.)",
+    size: "5 Quart",
+    liquidVolume: "160 Fluid Ounces",
+    features: [
+      "Our most advanced full synthetic 5W-30 engine oil, designed for unbeatable engine protection",
+      "Pennzoil Ultra Platinum comes with a 20-year, 750,000 mile warranty to protect your engine and give you peace of mind to drive every mile as hard as you can",
+      "Made with natural gas",
+      "Outstanding performance in extreme temperatures",
+      "Designed for high-performance engines, it helps protect engines from loss of power",
+      "Provides unsurpassed wear protection for your engine (based on Sequence IVA wear test using SAE 5W-30)",
+      "Provides better fuel economy (based on the latest industry standard)",
+      "Exceeds the requirements of the following industry specifications: API SP-Resource Conserving and all previous categories; ILSAC GF-6A; ACEA A1/B1 and ACEA A5/B5",
+      "Meets or exceeds the following OEM requirements: Chrysler MS-6395; WSS-M2C961-A1; Honda/Acura HT0-06",
+      "For a full list of equipment approvals and recommendations, please consult your local Shell Technical Help Desk and always consult your owner’s manual",
+    ],
+  },
+  {
+    name: "Pennzoil Platinum Full Synthetic 0W-20 Motor Oil (55-Gallon Drum)",
+    image: "https://m.media-amazon.com/images/I/410PEjbYHYL._AC_SY550_.jpg",
+    category: ["pennzoil"],
+    vehicle: ["car"],
+    flashPoints: "",
+    description:
+      "Pennzoil Platinum Full Synthetic 0W-20 is designed to provide enhanced fuel economy and is suitable for use in vehicles currently using SAE 5W-20. Made with natural gas, this premium oil is designed for complete protection for top engine performance and helps extend engine life and protects for up to 15 years or 500,000 miles, whichever comes first, guaranteed*. Pennzoil Platinum Full Synthetic motor oil keeps pistons up to 45% cleaner than required by the toughest industry standard (based on Sequence IIIH results), helps protect engines from loss of power, provides unsurpassed wear protection (based on Sequence IVA wear test using SAE 5W-30), and provides excellent performance in extreme temperatures. No other leading synthetic oil provides better wear protection from friction (Based on Sequence IVA wear test using SAE 5W-30). Meets or exceeds the requirements of the following industry specifications: API SP-RC and all previous categories; ILSAC GF-6A. For a full listing of equipment approvals and recommendations, please consult your local Shell Technical Helpdesk. (*Pennzoil Platinum Lubrication Limited Warranty: Up to 15 years or 500,000 miles, whichever comes first, guaranteed, if you exclusively use Pennzoil Ultra Platinum Full Synthetic motor oil, Pennzoil Platinum Full Synthetic motor oil, Pennzoil Platinum Euro Full Synthetic motor oil, and Pennzoil Platinum High Mileage Full Synthetic motor oil. Your engine must have less than 125,000 miles and been manufactured in the past 72 months. To maintain your warranty, change your vehicle’s oil and oil filter at least as often as recommended by the vehicle manufacturer. Enrollment required. Keep your receipts. Other conditions apply. See Pennzoil.com/warranty to enroll and for full details and terms.)",
+    size: "55 Gallon",
+    liquidVolume: "7040 Fluid Ounces",
+    features: [
+      "Full synthetic 0W-20 engine oil that is made with natural gas and designed for complete protection for top engine performance",
+      "Helps extend engine life and protects for up to 15 years or 500,000 miles, whichever comes first. Guaranteed (see Warranty Information in Product Description)",
+      "Provides better fuel economy (based on the latest industry standards)",
+      "Pennzoil Platinum 0W-20 keeps pistons up to 45% cleaner than the toughest industry standard (based on Sequence IIIH results)",
+      "No other leading synthetic oil provides better wear protection from friction (based on Sequence IVA wear test using SAE 5W-30)",
+      "Formulated to provide faster low-temperature oil flow and protection in extreme heat",
+      "55-gallon drum",
+      "Helps protect engines from loss of power",
+      "Formulated for modern turbocharged engines—ILSAC GF-6A, API SP-RC and all previous categories",
+    ],
+  },
   // {
   //   name: "",
   //   image: "",
@@ -2648,129 +2826,29 @@ export const allProducts = [
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/RetroFit-Kit-624x415-1.jpg",
     category: ["filteration"],
     description: {
-      intro: "",
+      intro:
+        "Contamination control products are not limited to just filters or dehydrators; they also include items that help make sure contaminants do not get into your system to  begin with.",
       attributesSection: {
-        intro: "",
+        intro:
+          "Contamination control products include a wide range of items and equipment designed to reduce, control and/or eliminate contaminants in your lubrication system(s) whether vehicular, industrial, or otherwise. These include:",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Auto Lube Systems",
+        "Color Coded Lubricant Containers and Dispensing Equipment (Oil Safe)",
+        "Tank Breathers, Desiccant and Non-desiccant",
+        "Quality Sample Ports and Sight Gauges,",
+      ],
       details: {
         intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "continental",
-    image:
-      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/continental_ultracontact_prod-753x1024.jpeg",
-    category: ["tire"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Conventional Engine Oil",
-    image:
-      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/oil_pour3-624x431-1.jpg",
-    category: ["engine lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "cooper ",
-    image:
-      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/pneu-ete-COOPER-TIRES-DISCOVERER-AT3-768x768.jpeg",
-    category: ["tire"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Delo TorqForce SAE 10W",
-    image:
-      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/chevron_delo_torqforce_sae_10w_pail.jpg",
-    category: ["drive train fluid, transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Diesel Exhaust Fluid",
-    image:
-      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/Air1Def-300x122-1.jpg",
-    category: ["transmission fluids"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "engine oil",
-    image:
-      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/Engine-Oil-624x468-1.jpg",
-    category: ["engine lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
+        detail: [
+          "Perma",
+          "Electrolube ATS",
+          "Oil Safe",
+          "Air Sentry",
+          "Des-Case",
+          "Checkfluid,",
+        ],
       },
       application: [""],
     },
@@ -2780,12 +2858,17 @@ export const allProducts = [
     image: "/products/Automotive-Oil-Filter.jpg",
     category: ["filteration"],
     description: {
-      intro: "",
+      intro:
+        "Whether you are trying to control maintenance costs for a fleet or trying to offer a competitively priced and profitable automotive filter to your repair shop, quick lube or dealership customers, PetroChoice will work with you to fulfill your engine oil filter needs.",
       attributesSection: {
-        intro: "",
-        attributes: [""],
+        intro:
+          "The great engine oil filter companies we team up with to keep you in the game include:",
+        attributes: ["Donaldson", "Valvoline", "Pennzoil", "Eco Guard"],
       },
-      features: [""],
+      features: [
+        "You need to keep your fleet operating efficiently every day, whether you are a trucking company maintaining or growing your profitability; a municipality keeping the roads clean and safe; or a construction company with a hard working fleet of off highway heavy equipment. Keep your engines running well with the best filters available on the market. Let Shop Lubricants take a look at the filters you are currently using in your fleet’s engines and we can cross them with the top filter products we carry today.",
+        "Your Shop Lubricants Representative has a great selection of engine oil filters for your retail Engine Filtersoperation. We will review our mix of products with you to help you find the line(s) that help you stay competitive in the extremely challenging oil change marketplace.",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -2793,134 +2876,7 @@ export const allProducts = [
       application: [""],
     },
   },
-  {
-    name: "Food Grade Lubricants",
-    image: "/products/FOOD-GRADE-Lubricants-Post-blog-03.jpg",
-    category: ["industrial lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "gear oil",
-    image: "/products/cropped_1_0.webp",
-    category: ["industrial lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "goodyear",
-    image: "/products/goodyear-tires-1.jpeg",
-    category: ["tire"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "green engine oil",
-    image: "/products/LM-1-Molygen_application1-1.jpg",
-    category: ["engine lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Havoline Full Synthetic Multi-Vehicle ATF",
-    image:
-      "/products/chevron_havoline_full_synthetic_multi_vehicle_atf_quart.jpg",
-    category: ["atf", "transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Havoline Global Multi-Vehicle ATF",
-    image:
-      "/products/chevron_havoline_global_synthetic_blend_multi_vehicle_atf_quart.jpg",
-    category: ["atf", "transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Honda 08200-HCF2 Fluid",
-    image: "/products/honda-08200-hcf2-fluid.png",
-    category: ["atf", "transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
+
   {
     name: "Delo Gear ESI SAE 80W-90",
     image:
@@ -3027,10 +2983,17 @@ export const allProducts = [
     image: "/products/AutoLubeslider-624x390-1.jpg",
     category: ["filteration"],
     description: {
-      intro: "",
+      intro:
+        "Quality filtration products are key components to any successful lubrication management program. Proper lubrication management not only means putting the correct amount of the right lubricant into your equipment, it also means getting the most out of your lubricants once they are in the system. Industrial filters are perhaps the best way to manage the cleanliness and increase the life of your lubricants and equipment.",
       attributesSection: {
-        intro: "",
-        attributes: [""],
+        intro:
+          "Shop Lubricants has partnered with some of the best companies in the industrial filter business including:",
+        attributes: [
+          "Donaldson",
+          "Schroeder",
+          "Porous Media (Pentair)",
+          "Spinner II",
+        ],
       },
       features: [""],
       details: {
@@ -3729,133 +3692,6 @@ export const allProducts = [
     },
   },
   {
-    name: "industrial grease",
-    image: "/products/Industrial-Grease-225x300-1.jpg",
-    category: ["industrial lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Kendall VersaTrans LV ATF",
-    image: "/products/kendall_versatrans_lv_atf.png",
-    category: ["atf", "transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Lubegard Universal CVT Fluid",
-    image: "/products/lubegard_universal_cvt_fluid.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Lubegaurd ATF Protectant",
-    image: "/products/automatic_transmission_fluid_atf_protectant.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Lubeguard Platinum ATF Protectant",
-    image: "/products/lubeguard_platinum_atf_protectant.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Metalworking Fluids",
-    image:
-      "/products/photodune-15124839-metalworking-cnc-milling-machine-l.jpg",
-    category: ["industrial lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Michellin Tires",
-    image: "/products/MC-LTXAT_1024x1024.webp",
-    category: ["tire"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
     name: "Mobil 1 0w20",
     image:
       "/products/02912e83-39c6-4b7e-8c5b-321557217d86.33c7beda4f47cc52d29485e47813ddb4.webp",
@@ -3866,7 +3702,14 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Mobil 1 Advanced Fuel Economy full-synthetic motor oil 0W-20 is low-viscosity to help improve fuel economy.*",
+        "Utilizes Mobil 1’s signature Triple Action Formula to deliver outstanding engine performance, protection, and cleanliness",
+        "Helps protect critical engine parts for up to 10,000 miles between oil changes,** controlling oxidation to prevent oil breakdown and maintaining excellent viscosity",
+        "Meets ILSAC GF-6 standards to help provide low-speed pre-ignition (LSPI) and timing chain wear protection while keeping your engine clean",
+        "Helps extend engine life by working to prevent damaging deposits and sludge buildup",
+        "Provides excellent internal engine heat protection (up to 500 degrees F) and low temperature protection (to -40 degrees F)",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -3879,12 +3722,20 @@ export const allProducts = [
     image: "/products/download (1).jpeg",
     category: ["valvoline"],
     description: {
-      intro: "",
+      intro:
+        "Keep your engine running at peak efficiency while improving fuel economy. Engineered for today’s advanced and hybrid engines, Mobil 1 Advanced Fuel Economy full-synthetic motor oil 0W-20 helps to improve fuel economy* and extend engine life for vehicles of all ages. Mobil 1 Advanced Fuel Economy utilizes Mobil 1’s signature Triple Action Formula to deliver outstanding engine performance, protection, and cleanliness to your vehicle. Specialty components in synthetic oil reduce friction, helping to prevent deposits and sludge buildup to keep critical engine parts clean and protected for up to 10,000 miles between oil changes.** This technologically advanced formulation offers outstanding engine efficiency, wear protection, internal engine heat protection (up to 500 degrees Fahrenheit), and low-temperature protection (to -40 degrees Fahrenheit)—bringing quick cold-weather starting and ultra-fast protection to your engine. Mobil 1 Advanced Fuel Economy meets ILSAC GF-6 standards to help provide low-speed pre-ignition (LSPI) and timing chain wear protection while keeping your engine clean and helping to improve your fuel economy. Mobil 1 Advanced Fuel Economy full-synthetic motor oil 0W-20 also helps control oxidation to prevent oil breakdown and is recommended by ExxonMobil for all types of modern vehicles, including high-performance, turbo-charged, and supercharged gasoline and diesel multi-valve fuel-injected engines found in passenger cars, SUVs, light vans, and light trucks. Mobil 1 is America’s #1 selling synthetic motor oil brand at retail,*** trusted and recommended by car builders and experienced mechanics, and is the Official Motor Oil of NASCAR(R). (*Potential fuel economy improvement obtained by switching from higher-viscosity oils to a lower-viscosity grade. Actual savings are dependent upon vehicle/engine type, outside temperature, driving conditions, and your current engine oil viscosity. **Protects for up to 10,000 miles or 1 year, whichever comes first. To learn more about the Mobil 1 Limited Warranty, visit Mobil.US. ***Source: The NPD Group/ Retail Tracking Service/ Dollar Sales/ PCMO full-synthetic/ 52 weeks ending Nov 26, 2022)",
       attributesSection: {
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Mobil 1 Advanced Fuel Economy full-synthetic motor oil 0W-20 is low-viscosity to help improve fuel economy.*",
+        "Utilizes Mobil 1’s signature Triple Action Formula to deliver outstanding engine performance, protection, and cleanliness",
+        "Helps protect critical engine parts for up to 10,000 miles between oil changes,** controlling oxidation to prevent oil breakdown and maintaining excellent viscosity",
+        "Meets ILSAC GF-6 standards to help provide low-speed pre-ignition (LSPI) and timing chain wear protection while keeping your engine clean",
+        "Helps extend engine life by working to prevent damaging deposits and sludge buildup",
+        "Provides excellent internal engine heat protection (up to 500 degrees F) and low temperature protection (to -40 degrees F)",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -3902,7 +3753,12 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Mobil 1 FS European Car Formula Full Synthetic Motor Oil 0W-40 helps to extend engine life even in severe conditions",
+        "Helps to control oxidation to prevent oil breakdown and maintain excellent viscosity for up to 10,000 miles between oil changes",
+        "Provides outstanding engine wear protection and performance with uniform synthetic oil molecules for better friction reduction",
+        "Keeps your engine running like new by working to prevent damaging deposits and sludge buildup",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -3921,7 +3777,15 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "High-mileage passenger car motor oil specially designed for older engines",
+        "Provides wear protection, cleaning power, and overall performance",
+        "Reduces deposits and sludge",
+        "Contains a seal conditioner to keep seals in working condition and help prevent leaks",
+        "Ideal for passenger cars, SUVs, light vans, and trucks",
+        "5-qt bottle ideal for multiple oil changes",
+        "Helps older engines last for a longer time",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -3939,7 +3803,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Helps protect engines even during grueling racing applications",
+        "Helps maximize power output by reducing internal friction",
+        "Helps maximize power output",
+        "Helps reduce oil breakdown and help to extend engine life, even under some of the most extreme conditions",
+        "Provides faster flow to critical engine parts at low temperatures",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -3952,7 +3822,8 @@ export const allProducts = [
     image: "/products/super-1000-15w40-thegem-product-single.png",
     category: ["mobil"],
     description: {
-      intro: "",
+      intro:
+        "Note: Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
       attributesSection: {
         intro: "",
         attributes: [""],
@@ -3975,7 +3846,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Mobil 1 advanced full-synthetic motor oil 5W-30 utilizes Mobil 1’s signature Triple Action Formula to deliver outstanding engine performance, protection, and cleanliness",
+        "Helps protect critical engine parts for up to 10,000 miles between oil changes,* controlling oxidation to prevent oil breakdown and maintaining excellent viscosity",
+        "Meets ILSAC GF-6 standards to help provide low-speed pre-ignition (LSPI) and timing chain wear protection while keeping your engine clean and helping to improve your fuel economy",
+        "Helps extend engine life by working to prevent damaging deposits and sludge buildup",
+        "Provides excellent internal engine heat protection (up to 500 degrees F) and low temperature protection (to -30 degrees F)",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -3993,7 +3870,11 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Helps to protect critical engine parts for up to 10,000 miles between oil changes**, controlling oxidation to prevent oil breakdown and maintaining excellent viscosity",
+        "Meets ILSAC GF-6 standards to help provide low-speed pre-ignition (LSPI), timing chain wear protection while keeping your engine clean and helping your fuel economy",
+        "Helps extend engine life by working to prevent damaging deposits and sludge buildup",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4004,14 +3885,33 @@ export const allProducts = [
   {
     name: "Mobilfluid 424",
     image: "/products/mobilfluid_424_pail_1.jpg",
-    category: ["transmission"],
+    category: ["mobil"],
     description: {
       intro: "",
       attributesSection: {
         intro: "",
-        attributes: [""],
+        attributes: [
+          "Allison C-4 (Agriculture Applications Only)",
+          "API GL-4",
+          "Caterpillar TO-2",
+          "CNH MAT 3505, 3525",
+          "Denison UTTO/THF",
+          "Ford New Holland ESN-M2C-134-D",
+          "Ford New Holland FNHA-2C-201.00",
+          "JI Case MS 1204-07/09",
+          "Massey Ferguson M-1135 M-1141",
+          "Powerfluid 821 XL",
+          "John Deere J20C",
+        ],
       },
-      features: [""],
+      features: [
+        "Heavy-duty transmissions, differentials, final drives, hydraulic systems, power steering systems, wet brakes, PTOs and hydrostatic drives",
+        "Off-highway industries including: agriculture, construction, and quarrying",
+        "Top-up and refill of systems",
+        "Commercial transmission applications requiring Type A (Suffix A), Dexron and Type F fluids. Do not use in passenger car automatic transmissions",
+        "Applications requiring API GL-4 or SAE 80W grade lubricants in all gear applications except hypoid gear designs",
+        "Outstanding replacement for engine oils recommended for hydraulic and transmission systems",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4022,14 +3922,20 @@ export const allProducts = [
   {
     name: "Mobiltrans HD 30",
     image: "/products/mobilfluid_424_pail_1.jpg",
-    category: ["transmission"],
+    category: ["mobil"],
     description: {
-      intro: "",
+      intro:
+        "Mobiltrans HD 30 are extra high performance, heavy duty transmission and drive-train lubricants engineered to meet or exceed the requirements of the rigorous Caterpillar TO-4 specification.  This product line is uniquely designed to optimise the performance of powershift transmissions, gearboxes, and final drives.  In hydraulic applications, they provide maximum protection even in high pressure systems",
       attributesSection: {
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Heavy duty transmissions, gear boxes, final drives, and hydraulic systems used in off-highway applications",
+        "Off-highway industries including: mining, construction, quarrying, and agriculture",
+        "Manual, powershift, and automatic transmissions where Allison C-4 fluids (SAE 10W and 30 grades) are called for including Twin Disc and transmissions calling for Type F fluids",
+        "Most mobile equipment hydraulic applications",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4055,168 +3961,7 @@ export const allProducts = [
       application: [""],
     },
   },
-  {
-    name: "Oil Safe",
-    image: "/products/Xpel-Containers-1.png",
-    category: [""],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Olympus Synthetic Gear SAE 75W90",
-    image: "/products/olympus_synthetic_gear_lubricant_75w90_pail_1.jpg",
-    category: ["grease"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Olympus Synthetic HD MVP ATF TES-295",
-    image: "/products/olympus_hd_synthetic_atf_tes-295.jpg",
-    category: ["atf", "transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Olympus THF Red",
-    image: "/products/olympus_thf_red.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "PEAK OET Antifreeze",
-    image: "/products/oet_naeuas-1.png",
-    category: ["engine coolant"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Phillips 66 CVT Fluid",
-    image: "/products/phillips_66_cvt_fluid.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Phillips 66 PowerDrive Fluid SAE 30",
-    image: "/products/phillips_66_powerdrive_fluid_sae_30.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Phillips 66 PowerTran Fluid",
-    image: "/products/phillips-6__powertran_fluid_pail.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Phillips 66 VersaTrans LV ATF",
-    image: "/products/p66_atf_fs_versatrans_lv_atf-1.png",
-    category: ["atf", "transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
+
   {
     name: "PRESTONE COOLANT Antifreeze 4L (Yellow)",
     image: "/products/1831821-01-jpg.jpeg",
@@ -4227,7 +3972,15 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "The World’s No.1 Branded Coolant Antifreeze",
+        "Trusted and used as Factory Fill by Vehicle Manufacturers",
+        "Compatibility Guaranteed For All Makes and Models",
+        "10 Year, 300,000 mile Corrosion protection guarantee when cooling system is flushed and filled with Prestone",
+        "Add to any colour Coolant Antifreeze",
+        "Contains a Bittering Agent to Protect against Accidental Ingestion",
+        "Included components: 4 litres coolant",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4235,119 +3988,11 @@ export const allProducts = [
       application: [""],
     },
   },
-  {
-    name: "Semi-Synthetic Engine Oil",
-    image: "/products/image1.jpg",
-    category: ["engine lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Shell Spirax S4 CX 10W",
-    image: "/products/shell_spirax_s4_cx_10w_pail.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Shell Spirax S4 TXM",
-    image: "/products/shell_spirax_s4_txm_tractor_hydraulic_fluid_pail.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Shell Spirax S6 ATF A295",
-    image: "/products/shell_spirax_s6_atf_a295_pail.jpg",
-    category: ["atf", "transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Synthetic Engine Oil",
-    image: "/products/oil_pour1-624x500-1.jpg",
-    category: ["engine lubricants"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "Synthetic Transmission Fluid",
-    image:
-      "/products/automatic-transmission-fluid-synthetic-grouping-2020-fb-og.jpg",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
+
   {
     name: "TOTAL coolant 1L 5L",
     image: "/products/Coolelf_Auto_Supra_-37_1L_5.jpeg",
-    category: ["engine coolant"],
+    category: ["total"],
     description: {
       intro: "",
       attributesSection: {
@@ -4373,7 +4018,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "VERY LOW TEMPERATURE RESISTANT: Thanks to low-viscosity grades and together with carefully selected premium additives, the Quartz 9000 0W20 ensures easier cold starts even in extremely cold weather conditions.",
+        "BEST IN CLASS CLEANLINESS: The state of the art molecular structure of this Total Quartz 9000 provides outstanding engine longevity by ensuring utmost engine cleanliness, thanks to its advance detergent and excellent dispersion properties.",
+        "EXCELLENT OXIDATION CONTROL: Total’s Age-Resistance Technology provides expert engine protection, as designed to create a strong film protection on all engine parts which lowers friction and allows excellent resistance to oxidation, thus reinforcing engine protection.",
+        "IMPROVED FUEL ECONOMY: This 0W20 synthetic oil lowers internal friction within the engine so that it can deliver full power, while at the same time generating significant fuel savings without the need to change driving style.",
+        "TECHNOLOGY & INNOVATION: As a market leader in the automotive sector worldwide, TotalEnergies has been pioneering the sphere of engine oils with a wide range of technology based products, the fruit of a constant innovation undertaking.",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4391,7 +4042,10 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Material: synthetic",
+        "Our advantages: low price, top quality, large selection and premium brands",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4406,7 +4060,8 @@ export const allProducts = [
     description: {
       intro: "",
       attributesSection: {
-        intro: "",
+        intro:
+          "Extremely high level of engine protection, ensuring that all engine parts last for a long time. Protection is greater than 20% at the official European manufacturers’ wear tests.Protection for petrol engine pollution-control systems: optimises the way in which three-way catalytic converters work, preventing them from getting clogged up with deposits. Reduces emissions of NOx, HC and CO in particular.Engine cleanliness: offers the best possible protection against deposits as soon as the engine is started, during cold starts Engine start-ups easier – at both very low and very high temperatures (ideal for stop&start systems, for example).Its resistance to lubricant ageing is 35% higher than official requirements after oxidation test.",
         attributes: [""],
       },
       features: [""],
@@ -4422,7 +4077,8 @@ export const allProducts = [
     image: "/products/Quartz_7000_10W-40_1x5.jpeg",
     category: ["total"],
     description: {
-      intro: "",
+      intro:
+        "Synthetic based motor oil for gasoline and diesel engines perfectly suited for vehicles equipped with catalysts and using unleaded fuel, liquefied petroleum gas and biodiesel.This engine oil is particularly suitable for turbocharged and multi-valve engines and suitable for normal driving conditions. QUARTZ 7000 10W-40 is the essential reference in its category in terms of application and motor compatibility. It is particularly recommended by Peugeot and Citroën and approved for Volkswagen, Audi, Seat, Skoda, Mercedes-Benz, Smart.",
       attributesSection: {
         intro: "",
         attributes: [""],
@@ -4459,7 +4115,8 @@ export const allProducts = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlBc_mDu-0xZRcRMrCMEfzurGCf87NRN2DpQ&s",
     category: ["total"],
     description: {
-      intro: "",
+      intro:
+        "QUARTZ DIESEL 5000 15W40  is a high multi-grade diesel engine oil for better protection and performance. It has been engineered for modern diesel engines with or without turbochargers, intercoolers or advanced injection system operating under all driving conditions.",
       attributesSection: {
         intro: "",
         attributes: [""],
@@ -4483,7 +4140,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "100% Synthetic",
+        "5L container",
+        "5W30",
+        "Low SAPS specially designed for Peugeot and Citroën engines",
+        "Manufacturer certifications: recommended by Peugeot and Citroën; PSA Peugeot Citroën – B71 2290",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4497,31 +4160,19 @@ export const allProducts = [
       "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/pck_total_quartz_9000_sn_5w50_9qf_202001_4l_sgp.webp",
     category: ["total"],
     description: {
-      intro: "",
+      intro:
+        "TOTAL QUARTZ 9000 SN 5W-50 is recommended for all petrol engines (multi-valve and turbo types, with or without catalytic converter) and all diesel engines, turbo-charged or naturally aspirated in cars and light vans.",
       attributesSection: {
         intro: "",
         attributes: [""],
       },
-      features: [""],
-      details: {
-        intro: "",
-        detail: [""],
-      },
-      application: [""],
-    },
-  },
-  {
-    name: "transmission fluids",
-    image:
-      "https://saigon-tradingcorp.com/wp-content/uploads/2023/03/transmission_fluid-768x572.webp",
-    category: ["transmission"],
-    description: {
-      intro: "",
-      attributesSection: {
-        intro: "",
-        attributes: [""],
-      },
-      features: [""],
+      features: [
+        "Excellent engine cleanliness and wear protection for vehicles in city and suburban driving conditions.",
+        "Excellent thermal and oxidation stability for longer service life.",
+        "Good low temperature flow properties to provide rapid protection at cold start.",
+        "Exceptional viscosity stability at high temperature for endurance performance and protection.",
+        "Good compatibility with a wide range of seal materials,",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4540,7 +4191,14 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Advanced protection against the four main causes of engine breakdown: wear, friction, heat, and deposits",
+        "40% better wear protection vs. industry standard as tested in the Sequence IVB engine test",
+        "25% better deposit protection with superior engine cleaning detergents as tested in the GMOD engine test",
+        "Exceptional high/low temperature protection defends your motor no matter the weather conditions",
+        "Meets or exceeds all requirements of ILSAC GF-6A, API SP, API SN with SN PLUS, API SN, GM dexos 1 Gen 3",
+        "American made & formulated to maximize your engine’s life and improve its performance,",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4559,7 +4217,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Ultimate protection against sludge & deposits to keep your hybrid engine at peak performance",
+        "Reduce costly repairs by minimizing exhaust system damage to critical engine components",
+        "Resist oil breakdown with added detergents and dispersants that keep our oil working longer for you",
+        "Exceptional temperature protection shields your engine in even the harshest weather conditions",
+        "Specially formulated to handle the unique demands of hybrid electric engines,",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4578,7 +4242,14 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Advanced protection in European vehicles against the four main causes of engine breakdown: wear, friction, heat, and deposits",
+        "Extra wear protection vs. industry and OEM standards with advanced anti-wear additives",
+        "Superior performance for European gasoline and diesel engines",
+        "Exceptional high/low temperature protection defends your engine no matter the climate or driving conditions",
+        "Meets or exceeds all requirements of API SN, ACEA A3/B3, A3/B4, & C3, MB 229.5, 229.3, & 226.5, VW 50200/50500 & 50501, BMW LL-01, Porsche A40, Renault RN0700 & RN0710, and Chrysler MS-12633/MS-10725",
+        "American made & formulated to maximize your engine’s life and improve its performance,",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4597,7 +4268,13 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Formerly Valvoline Premium Conventional Motor Oil; same great product, now in new packaging",
+        "Protects against all types of deposits at all temperatures to keep engines clean",
+        "Contains durable anti-wear additives that stay in the oil longer to improve protection and provides enhanced oxidation control to resist oil thickening",
+        "Provides thorough anti-wear protection exceeding current U.S., Japanese, and European wear tests for gasoline and gasoline turbo-charged engines",
+        "For any product use or product technical questions call 1-800-TEAM-VAL,",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4616,7 +4293,10 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Material: synthetic",
+        "Our advantages: low price, top quality, turbo shipping, large selection and premium brands",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4635,7 +4315,15 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "EXCELLENT WEAR PROTECTION IN HEAVY DUTY APPLICATIONS that can take a toll on critical internal moving parts",
+        "RESISTS OXIDATION AND FIGHTS DEPOSITS with high quality base oils and special inhibitors",
+        "PROTECTS DURING COLD START UPS WHILE CONTROLING SOOT as heavy-duty equipment can sit idle for extended periods of time",
+        "PROPRIETARY ONE SOLUTION GEN2 TECHNOLOGY designed to protect hardworking diesel, gasoline and natural gas engines in both on-highway and off-highway applications",
+        "UNIQUE 5,000 MILES OIL DRAINS EXTENSION in Cummins X15/X12 engines when average is 7mpg or higher",
+        "AMERICAN MADE & FORMULATED to maximize your engine’s life and improve it’s performance",
+        "THE ONLY ONE exclusively endorsed and recommended by Cummins,",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4654,7 +4342,14 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "ADVANCED PROTECTION AGAINST the four main causes of engine breakdown: wear friction heat and deposits",
+        "40% BETTER WEAR PROTECTION vs. industry standard as tested in the Sequence IVB engine test",
+        "25% BETTER DEPOSIT PROTECTION with superior engine cleaning detergents as tested in the GMOD engine test",
+        "EXCEPTIONAL HIGH/LOW TEMPERATURE PROTECTION defends your motor no matter the weather conditions",
+        "MEETS OR EXCEEDS ALL REQUIREMENTS of ILSAC GF-6A, API SP, API SN with SN PLUS, API SN, GM dexos 1 Gen 3",
+        "AMERICAN MADE & FORMULATED to maximize your engine’s life and improve it’s performance,",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4673,7 +4368,14 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "Exclusive race-proven chemistry reduces internal friction and improves power output",
+        "Improved thermal and oxidation stability that resists oil breakdown",
+        "Wear protection: zinc additive provides wear protection",
+        "Exclusive race-proven chemistry provides improved power output under high temperatures",
+        "Formulated with an enhanced anti-foam system for superior high-rpm protection",
+        "Keeps the engine clean and in good condition,",
+      ],
       details: {
         intro: "",
         detail: [""],
@@ -4730,7 +4432,14 @@ export const allProducts = [
         intro: "",
         attributes: [""],
       },
-      features: [""],
+      features: [
+        "The formulation is designed for both gasoline and diesel engines",
+        "Its lower-silicate, reduced pH, phosphate free European technology protects all cooling system metals, including aluminum, from corrosion",
+        "ZEREX G-05 is a nitrite containing coolant designed to protect diesel engine cylinder liners from cavitation",
+        "Contains deposit control additives for protection from hard water deposits and scale",
+        "Contains a high quality defoamer system and will not harm hoses, plastics or original vehicle finishes",
+        "For any product use or product technical questions call 1-800-TEAM-VAL,",
+      ],
       details: {
         intro: "",
         detail: [""],
