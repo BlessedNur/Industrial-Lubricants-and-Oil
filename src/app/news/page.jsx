@@ -7,7 +7,7 @@ import style from "./page.module.css";
 import { news } from "@/components/MainContent/MContent";
 import { useRouter, useSearchParams } from "next/navigation";
 
-function page() {
+function Page() {
 
   const navigate = useRouter();
   return (
@@ -54,4 +54,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
