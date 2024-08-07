@@ -208,15 +208,7 @@ function MContent() {
         <h1>PRODUCTS</h1>
         <div className={style.product}>
           {products.map((product, index) => (
-            <div
-              key={index}
-              className={style.productItem}
-              onClick={() => {
-                navigate.push(
-                  `/products?category=${encodeURIComponent(product.name)}`
-                );
-              }}
-            >
+            <div key={index} className={style.productItem}>
               <div className={style.image}>
                 <img src={product.image} alt={product.name} />
               </div>
