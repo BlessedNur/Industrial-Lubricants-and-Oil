@@ -60,7 +60,7 @@ function Navbar() {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={"/products"}>shop</Link>
+            <Link href={"/products"}>Shop</Link>
           </li>
           <li>
             <Link href={"/brands"}>Products</Link>

@@ -26,7 +26,7 @@ function Page() {
         height={"100svh"}
       />
       <section className={style.brands}>
-        <h2>Produts</h2>
+        <h2>Products</h2>
         <div className={style.aBrands}>
           {brands.map((brand, index) => (
             <div
