@@ -57,8 +57,8 @@ function PageContent() {
     <section>
       <Navbar />
       <Banner
-        presentPage={"products"}
-        text={"products"}
+        presentPage={"Shop"}
+        text={"SHOP"}
         height={"90svh"}
         extraText={"This is where you can browse products in this store."}
         diff={true}

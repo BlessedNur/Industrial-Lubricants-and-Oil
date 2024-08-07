@@ -15,7 +15,7 @@ function Page() {
       <Banner
         text={"Explore Our Trusted Brands"}
         diff={true}
-        presentPage={"brands"}
+        presentPage={"Products"}
         extraText={
           "Explore our selection of top motor oil and lubricant brands, each with a legacy of excellence and reliability."
         }
@@ -26,7 +26,7 @@ function Page() {
         height={"100svh"}
       />
       <section className={style.brands}>
-        <h2>Our Brands</h2>
+        <h2>Produts</h2>
         <div className={style.aBrands}>
           {brands.map((brand, index) => (
             <div

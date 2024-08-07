@@ -293,7 +293,7 @@ function MContent() {
             justifyContent: "space-between",
           }}
         >
-          <h1>Our Brands</h1>
+          <h1>Partners</h1>
           <button onClick={() => navigate.push("/brands")}>Explore</button>
         </div>
         <div className={style.wrapper}>

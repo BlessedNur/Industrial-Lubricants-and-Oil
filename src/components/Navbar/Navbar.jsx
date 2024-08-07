@@ -60,10 +60,10 @@ function Navbar() {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={"/products"}>Products</Link>
+            <Link href={"/products"}>shop</Link>
           </li>
           <li>
-            <Link href={"/brands"}>Our Brands</Link>
+            <Link href={"/brands"}>Products</Link>
           </li>
           <li>
             <Link href={"/about"}>About</Link>
@@ -102,10 +102,10 @@ function Navbar() {
         </label>
         <ul className={style.ul}>
           <li className={style.product}>
-            <Link href={"/products"}>Products</Link>
+            <Link href={"/products"}>shop</Link>
           </li>
           <li>
-            <Link href={"/brands"}>Our Brands</Link>
+            <Link href={"/brands"}>Products</Link>
           </li>
           <li>
             <Link href={"/about"}>About</Link>

@@ -38,7 +38,7 @@ function Footer() {
           <li className={`${path === "/" && style.active}`}>
             <Link href={"/"}>Home</Link>
           </li>
-          <li className={`${path === "/products" && style.active}`}>
+          <li className={`${path === "/brands" && style.active}`}>
             <Link href={"/products"}>Products</Link>
           </li>
           <li className={`${path === "/news" && style.active}`}>

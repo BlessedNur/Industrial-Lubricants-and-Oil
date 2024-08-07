@@ -13,7 +13,6 @@ function Page({ params }) {
   const [activeB, setActiveB] = useState(null);
   const [relatedProducts, setRelatedProducts] = useState([]);
   const name = decodeURIComponent(params.id);
-  console.log("stress");
   console.log(relatedProducts);
   useEffect(() => {
     let foundP = brands.find((brand) => brand.name === name);
@@ -35,7 +34,7 @@ function Page({ params }) {
             <div className={style.path}>
               <p onClick={() => navigate.push("/")}>Home</p>
               <p>{"»"}</p>
-              <p onClick={() => navigate.push("/brands")}>Brands</p>
+              <p onClick={() => navigate.push("/brands")}>Product</p>
               <p>{"»"}</p>
               <p>{name}</p>
             </div>
@@ -58,7 +57,7 @@ function Page({ params }) {
                 );
               }}
             >
-              VIEW PRODUCTS
+              VIEW IN SHOP
             </button>
           </div>
           <div className={style.right}>
