@@ -12,11 +12,12 @@ function Page() {
       <Banner
         height={"80svh"}
         img={
-          "https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          "https://images.pexels.com/photos/7876667/pexels-photo-7876667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
         presentPage={"reviews"}
         diff={true}
-        text={"Hear What Our Clients Have to Say"}
+        text={"reviews"}
+        textIntro={"Hear What Our Clients Have to Say"}
       />
       <Footer />
     </section>
