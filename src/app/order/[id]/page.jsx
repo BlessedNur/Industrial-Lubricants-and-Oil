@@ -16,6 +16,7 @@ function OrderPage({ params }) {
     email: "",
     address: "",
     delivery: "Yes",
+    paymentMethod: "",
     message: "",
   });
   const id = decodeURIComponent(params.id);
@@ -62,10 +63,13 @@ function OrderPage({ params }) {
       - Email: ${formData.email}
       - Address: ${formData.address}
       - Delivery: ${formData.delivery}
+      - Payment Method: ${formData.paymentMethod}
       - Message/Comment: ${formData.message}
     `;
-    
-    const whatsappUrl = `https://wa.me/12082786426?text=${encodeURIComponent(message)}`;
+
+    const whatsappUrl = `https://wa.me/12082786426?text=${encodeURIComponent(
+      message
+    )}`;
     window.location.href = whatsappUrl;
   };
 
@@ -201,6 +205,36 @@ function OrderPage({ params }) {
                 />
                 <label>No</label>
               </div>
+            </div>
+            <div>
+              <select
+                id="paymentMethod"
+                name="paymentMethod"
+                required
+                onChange={handleChange}
+              >
+                <option value="">Select Payment Method</option>
+                <option value="Cashapp">Cashapp</option>
+                <option value="Apple pay">Apple Pay</option>
+                <option value="Google pay">Google Pay</option>
+                <option value="Bank">Bank</option>
+                <option value="Gift Card">Gift Card</option>
+                <option value="Bacs">Bacs</option>
+                <option value="Credit card">Credit card</option>
+                <option value="Debit Card">Debit Card</option>
+                <option value="paypal">Paypal</option>
+                <option value="bitcoin">Bitcoin</option>
+                <option value="ethereum">Ethereum</option>
+                <option value="litecoin">Litecoin</option>
+                <option value="dogecoin">Dogecoin</option>
+                <option value="stellar">Stellar</option>
+                <option value="cheque">Cheque</option>
+                <option value="zcash">Zcash</option>
+                <option value="dash">Dash</option>
+                <option value="zelle">Zelle</option>
+                <option value="venmo">Venmo</option>
+                <option value="chime">Chime</option>
+              </select>
             </div>
             <div>
               <textarea

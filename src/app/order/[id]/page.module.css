@@ -1,5 +1,6 @@
 .order input,
-.order textarea {
+.order textarea,
+.order select {
   padding: 1em;
   border: none;
   font-size: 22px;
