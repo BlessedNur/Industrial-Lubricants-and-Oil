@@ -329,7 +329,7 @@ function MContent() {
             and coolants.
           </p>
           <div className={style.button}>
-            <button onClick={() => navigate.push("/about")}>
+            <button onClick={() => navigate.push("/brands")}>
               Discover now
             </button>
           </div>
