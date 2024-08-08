@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar/Navbar";
 import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
-import style from "./page.module.css";
+import style from "./Reviews.module.css";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
@@ -97,8 +97,7 @@ function Reviews() {
   };
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentReviewIndex((prevIndex) => (prevIndex
-        + 1) % reviews.length);
+      setCurrentReviewIndex((prevIndex) => (prevIndex + 1) % reviews.length);
     }, 10000);
     return () => clearInterval(interval);
   }, []);
