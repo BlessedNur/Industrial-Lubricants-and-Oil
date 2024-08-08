@@ -120,8 +120,8 @@ function Page() {
           />
         </div>
         <div className={style.review} key={currentReviewIndex}>
-          <p>"{reviews[currentReviewIndex].review}"</p>
-          <h4>- {reviews[currentReviewIndex].name}</h4>
+          <p>&quot;{reviews[currentReviewIndex].review}&quot;</p>
+          <h4>{"-"} {reviews[currentReviewIndex].name}</h4>
         </div>
       </div>
       <div className={style.history}>
