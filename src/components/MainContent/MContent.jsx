@@ -3,6 +3,8 @@ import style from "./MContent.module.css";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { brands } from "../brands";
+import Reviews from "@/components/Reviews/Reviews";
+
 
 export const news = [
   {
@@ -321,6 +323,7 @@ function MContent() {
           ))}
         </div>
       </div>
+      <Reviews/>
       <div className={style.history}>
         <div className={style.texts}>
           <p>
