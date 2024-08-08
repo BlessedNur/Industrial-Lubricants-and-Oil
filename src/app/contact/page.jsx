@@ -66,13 +66,7 @@ function Page() {
       />
       <div className={style.contact}>
         <div className={style.left}>
-          <h2>Tel :</h2>
-
-          <div className={style.line}>
-            <i className="fa fa-phone" aria-hidden="true"></i>
-            <Link href="tel:+12082786426">+1-208-278-6426</Link>
-          </div>
-          
+          <h2>Contact Us</h2>
           <div className={style.line}>
             <i className="fa-brands fa-whatsapp"></i>{" "}
             <Link href="https://wa.me/12082786426">+1-208-278-6426</Link>{" "}

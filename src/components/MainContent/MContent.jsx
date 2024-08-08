@@ -252,7 +252,7 @@ function MContent() {
           <button onClick={() => navigate.push("/about")}>read more</button>
         </div>
       </div>
-      <div className={style.news}>
+      {/* <div className={style.news}>
         <div className={style.contentN}>
           <h1>latest news</h1>
           <div className={style.newsItems}>
@@ -278,7 +278,7 @@ function MContent() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={style.partners}>
         <div
           style={{

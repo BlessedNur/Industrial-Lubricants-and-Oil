@@ -66,7 +66,7 @@ function Navbar() {
             <Link href={"/products"}>Shop</Link>
           </li>
           <li>
-            <Link href={"/about"}>About</Link>
+            <Link href={"/about"}>About Us</Link>
           </li>
           <li>
             <Link href={"/reviews"}>Reviews</Link>
@@ -111,7 +111,7 @@ function Navbar() {
             <Link href={"/products"}>shop</Link>
           </li>
           <li>
-            <Link href={"/about"}>About</Link>
+            <Link href={"/about"}>About Us</Link>
           </li>
           <li>
             <Link href={"/reviews"}>Reviews</Link>

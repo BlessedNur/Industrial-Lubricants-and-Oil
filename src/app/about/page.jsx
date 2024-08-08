@@ -19,9 +19,9 @@ function Page() {
       <Banner 
         height={"80svh"} 
         img={"https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"} 
-        presentPage={"about"} 
+        presentPage={"about us"} 
         diff={true} 
-        text={"about"} 
+        text={"about us"} 
       />
       <div className={style.about} style={{ padding: '20px' }}>
         {Object.values(aboutContent).map((paragraph, index) => (
