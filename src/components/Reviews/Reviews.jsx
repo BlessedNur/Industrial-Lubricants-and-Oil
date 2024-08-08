@@ -117,7 +117,7 @@ function Reviews() {
           />
         </div>
         <div className={style.review} key={currentReviewIndex}>
-          <h2>{reviews[currentReviewIndex].subtitle}</h2>
+          <h4>{reviews[currentReviewIndex].subtitle}</h4>
           <p>&quot;{reviews[currentReviewIndex].review}&quot;</p>
           <h4>{"-"} {reviews[currentReviewIndex].name}</h4>
           <div className={style.buttons}>
