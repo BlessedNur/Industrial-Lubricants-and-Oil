@@ -78,15 +78,15 @@ function Footer() {
             tabIndex="0"
           ></iframe>
           <h2>Contact us</h2>
-          
+
           <div className={style.line}>
             <i class="fa-brands fa-whatsapp"></i>{" "}
             <Link href="https://wa.me/12082786426">+1-208-278-6426</Link>{" "}
           </div>
           <div className={style.line}>
             <i className="fa fa-envelope" aria-hidden="true"></i>
-            <Link href="mailto:contactsebwholesale@gmail.com">
-              contactsebwholesale@gmail.com
+            <Link href="mailto:sales@sebwholesaledistributorsinc.com">
+              sales@sebwholesaledistributorsinc.com
             </Link>
           </div>
         </div>

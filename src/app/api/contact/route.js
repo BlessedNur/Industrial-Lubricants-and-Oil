@@ -22,7 +22,7 @@ export const POST = async (req) => {
     // Send the email
     await transporter.sendMail({
       from: email,
-      to: 'contactsebwholesale@gmail.com',
+      to: 'sales@sebwholesaledistributorsinc.com',
       subject: `Contact Form Submission: ${subject}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     });
