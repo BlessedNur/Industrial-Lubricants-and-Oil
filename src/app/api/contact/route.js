@@ -21,10 +21,11 @@ export const POST = async (req) => {
 
     // Send the email
     await transporter.sendMail({
-      from: email,
+      from: process.env.EMAIL_USER, // Your email
       to: 'sales@sebwholesaledistributorsinc.com',
       subject: `Contact Form Submission: ${subject}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+      replyTo: email, // User's email address
     });
 
     return NextResponse.json({ success: true });
